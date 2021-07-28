@@ -44,17 +44,17 @@
 
 
                     <label for="fname"> Full Name: </label><br>
-                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/thankyou.html">
+                    <input type="hidden" name="_next" value="thankyou.html"> //this line has a bug
 
-                    <input type="text" id="fname" class="form-input" name="fname"><br>
+                    <input type="text" id="fname" class="form-input" name="fname" required><br>
                     <label>Email: </label>
-                    <input type="email" id="email" class="form-input" name="email"><br>
+                    <input type="email" id="email" class="form-input" name="email" required><br>
                     <label>Mobile Number: </label>
                     <input type="text" id="pnumber" placeholder="+234" class="form-input" name="number"><br>
                     <label>Your Website: </label>
-                    <input type="text" placeholder="eg, https://kingsleyib.tech" class="form-input" type="url" name="Website"><br>
+                    <input type="text" placeholder="eg, https://kingsleyibe.net" class="form-input" type="url" name="Website"><br>
                     <label>General Message: </label>
-                    <textarea type="text" id="messageBody" placeholder="start typing here" name="Gmessage" class="form-input " cols="30" rows="30"></textarea><br>
+                    <textarea type="text" id="messageBody" placeholder="start typing here" name="Gmessage" class="form-input " cols="30" rows="30" required></textarea><br>
                     <button type="submit" class="submit-btn">Submit ></button>
                 </form>
             </div>
