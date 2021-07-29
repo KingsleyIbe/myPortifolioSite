@@ -1,6 +1,16 @@
 body {
     background-color: #fff;
 }
+header nav{
+    position: sticky;
+}
+nav>ul{
+    position: sticky;
+}
+ul{
+    list-style-type: none;
+    display: inline-flex;
+}
 
 .nav {
     background-color: #7772ff;

@@ -15,17 +15,21 @@
 </head>
 
 <body>
-    <header>
+    <header id="myHeader">
         <div>
             <div class="nav">
 
                 <div>
                     <h2>Let's Meet</h2>
                 </div>
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
+                <nav>
+                    <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            </nav>
             </div>
         </div>
     </header>
@@ -44,7 +48,7 @@
 
 
                     <label for="fname"> Full Name: </label><br>
-                    <input type="hidden" name="_next" value="thankyou.html"> //this line has a bug
+                    <input type="hidden" name="_next" value="thankyou.html"> 
 
                     <input type="text" id="fname" class="form-input" name="fname" required><br>
                     <label>Email: </label>

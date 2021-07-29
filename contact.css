@@ -5,7 +5,15 @@ body {
 header {
     background-color: #7772ff;
 }
-
+.nav{
+    position: fixed;
+  top: 0;
+  width: 100%;
+}
+ul{
+    list-style-type: none;
+    display: inline-flex;
+}
 .nav {
     display: flex;
 }
