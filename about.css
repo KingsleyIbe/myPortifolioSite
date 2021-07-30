@@ -1,6 +1,16 @@
 body {
     background-color: #fff;
 }
+header nav{
+    position: sticky;
+}
+nav>ul{
+    position: sticky;
+}
+ul{
+    list-style-type: none;
+    display: inline-flex;
+}
 
 .nav {
     background-color: #7772ff;
@@ -92,10 +102,9 @@ section h2 {
     border-bottom: solid 1px #343192;
     padding: 10px;
 }
-
-#certification img {
-    display: inline;
-    margin-right: 20px;
+div>#certLink a {
+    text-decoration: none;
+    font-size: 1.5em;
 }
 
 #let-connect p {

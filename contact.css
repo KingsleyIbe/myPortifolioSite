@@ -6,6 +6,10 @@ header {
     background-color: #7772ff;
 }
 
+ul{
+    list-style-type: none;
+    display: inline-flex;
+}
 .nav {
     display: flex;
 }
@@ -29,7 +33,7 @@ header {
 }
 
 .nav a:hover {
-    border: solid 3px #7772ff;
+    border: solid 3px #fff;
     border-radius: 10px;
 }
 

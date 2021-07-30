@@ -1,147 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="about.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="about.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
     <title>About Me</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header id="myHeader">
-        <div>
-            <div class="nav">
-
-                <div>
-                    <h2>Let's Meet</h2>
-                </div>
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
-            </div>
+      <div>
+        <div class="nav">
+          <div>
+            <h2>Let's Meet</h2>
+          </div>
+          <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
         </div>
+      </div>
     </header>
     <main>
-        <section id="intro-section">
-            <div>
-                <h1 class="intro">Hey, I'm Kingsley Ibe </h1>
-                <h2 class="role">A Front-end Developer Based in Lagos, Nigeria.</h2>
-                <p>I am a Front-end Developer and Content Creator with experience in HTML, CSS, JavaScript, React.js, node.js and other Front-end tools. I have spent the past 6 months building responsive, customized, easy, fast and optimized applications
-                    for diverse industries, including the engineering industry. I enjoy helping organisations and businesses find their place in the digital age by developing and maintaining their websites. I'm passionate about contributing to business
-                    growth and
-                    <a href="https://www.oscafrica.org/" class="intro-link" target="blank">open source projects</a> in Africa and
-                    <a href="https://opensource.org/community" class="intro-link" target="blank">beyond.</a>
-                </p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit rerum dicta error veritatis at accusamus aspernatur deserunt iure perspiciatis voluptatum placeat numquam explicabo, cupiditate quos qui, ad exercitationem odio! Iusto! Lorem
-                    ipsum dolor sit amet consectetur adipisicing elit. Assumenda quae optio totam debitis eligendi dolorum quo, provident nostrum est, quod modi ipsam magnam explicabo reprehenderit atque! Optio ipsa obcaecati necessitatibus!</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit quibusdam sed ipsa, natus debitis quasi excepturi itaque numquam maiores sequi, eveniet a minus omnis laborum non voluptas eaque nesciunt? Ipsa. Lorem ipsum dolor sit amet
-                    consectetur adipisicing elit. Accusantium esse nihil nesciunt minus aspernatur maiores dolore hic placeat consequatur quos, neque unde. Saepe itaque numquam unde est velit esse quas?
-                </p>
+      <section id="intro-section">
+        <div>
+          <h1 class="intro">Hey, I'm Kingsley Ibe</h1>
+          <h2 class="role">A Front-end Developer Based in Lagos, Nigeria.</h2>
+          <p>
+            I am a Front-end Developer and Content Creator with experience in
+            HTML, CSS, JavaScript, React.js, node.js and other Front-end tools.
+            I have spent the past few years building responsive, customized,
+            easy, fast and optimized applications for diverse industries,
+            including the engineering industry. I enjoy helping organisations
+            and businesses find their place in the digital age by developing and
+            maintaining their websites. I'm passionate about contributing to
+            business growth and
+            <a
+              href="https://www.oscafrica.org/"
+              class="intro-link"
+              target="blank"
+              >open source projects</a
+            >
+            in Africa and
+            <a
+              href="https://opensource.org/community"
+              class="intro-link"
+              target="blank"
+              >beyond.</a
+            >
+          </p>
+          <p>
+            I am seeking a 
+            progressive environment where I can continue to sharpen 
+            my software development skills and general growth.
+          </p>
+          <p>
+            Kingsley Ibe is a graduate of Chemical Engineering from the 
+            Imo State Polytechnic, Umuagwo, where he bagged 
+            a Higher National Diploma in Chemical Engineering 
+            and I am certain my team player mentality, numerical background, 
+            eagerness to learn, can-do spirit, commitment to excellence, 
+            good work ethics and best practices will make me an Asset to your Organization.
+          </p>
+        </div>
+      </section>
+      <section id="experience">
+        <h2>Skills and Experience</h2>
+        <div class="experience-list">
+          <div>
+            <a href="#CSS">
+                <li onclick="cssFunction()">CSS</li>
+            </a>
+            <div hidden id="cssDiv">
+              CSS stands for "Cascading Style Sheet." Cascading style sheets are
+              used to format the layout of Web pages. It is used to style your
+              web pages.
             </div>
-        </section>
-        <section id="experience">
-            <h2>Skills and Experience</h2>
-            <div class="experience-list">
-                <div>
-
-                    <li onclick="cssFunction()"><a href="#CSS">CSS</a></li>
-
-
-                    <div hidden id="cssDiv">CSS stands for "Cascading Style Sheet." Cascading style sheets are used to format the layout of Web pages. It is used to style your web pages.</div>
-                    <a href="#HTM">
-                        <li onclick="htmlFunction()">HTML</li>
-                    </a>
-                    <div hidden id="htmlDiv">HTML stands for "Hyper Text Markup Language" Hyper Text simply means it has "text within text". Markup Language means a computer language that is used to apply layout and formatting conventions to a text document. Markup language makes
-                        text more interactive and dynamic. It can turn text into images, tables, links, etc.</div>
-                    <a href="#JavaScript">
-                        <li onclick="javascriptFunction()">JavaScript</li>
-                    </a>
-                    <div hidden id="javascriptDiv">JavaScript is a dynamic computer programming language. It is lightweight and most commonly used as a part of web pages, whose implementations allow client-side script to interact with the user and make dynamic pages. It is an interpreted
-                        programming language with object-oriented capabilities.</div>
-                    <a href="#Node.js">
-                        <li onclick="nodeFunction()">Node.js</li>
-                    </a>
-                    <div hidden id="nodeDiv">Node.js is an open source server environment that runs on various environment (Windows, Linux, Unix, Mac OS X, etc). It uses JavaScript on the server and it's free.</div>
-                    <a href="#React.js">
-                        <li onclick="reactFunction()">React.js</li>
-                    </a>
-                    <div hidden id="reactDiv">React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.</div>
-                    <a href="#WordPress">
-                        <li onclick="wordpressFunction()">WordPress</li>
-                    </a>
-                    <div hidden id="wordpressDiv">WordPress is a free and open-source Content Management System (CMS) written in PHP and paired with a MySQL or MariaDB database.</div>
-                    <a href="#jQuery">
-                        <li onclick="jQueryFunction()">jQuery</li>
-                    </a>
-                    <div hidden id="jQueryDiv">jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of
-                        browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.</div>
-                    <a href="#Bootstrap">
-                        <li onclick="bootstrapFunction()">Bootstrap</li>
-                    </a>
-                    <div hidden id="bootstrapDiv">Bootstrap is the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</div>
-                </div>
+            <a href="#HTM">
+              <li onclick="htmlFunction()">HTML</li>
+            </a>
+            <div hidden id="htmlDiv">
+              HTML stands for "Hyper Text Markup Language" Hyper Text simply
+              means it has "text within text". Markup Language means a computer
+              language that is used to apply layout and formatting conventions
+              to a text document. Markup language makes text more interactive
+              and dynamic. It can turn text into images, tables, links, etc.
             </div>
-        </section>
-        <section id="community-service">
-            <div>
-                <h2>Community Service</h2>
-                <ul>
-                    <li><a href="https://lagosfoodbank.org/" target="blank">Lagos Foodbank Volunter</a></li>
-                    <li><a href="https://developereconomics.com/" target="blank">Contributor At Developer Economics</a></li>
-                </ul>
+            <a href="#JavaScript">
+              <li onclick="javascriptFunction()">JavaScript</li>
+            </a>
+            <div hidden id="javascriptDiv">
+              JavaScript is a dynamic computer programming language. It is
+              lightweight and most commonly used as a part of web pages, whose
+              implementations allow client-side script to interact with the user
+              and make dynamic pages. It is an interpreted programming language
+              with object-oriented capabilities.
             </div>
-        </section>
-        <section id="technical-blog">
-            <div>
-                <h2>Tehnical Blogging</h2>
-                <a href="https://ibekingsley.medium.com/the-difference-between-a-class-and-an-id-selector-39530db2d7e5" target="blank">THE DIFFERENCE BETWEEN A CLASS AND AN ID SELECTOR.</a>
+            <a href="#Node.js">
+              <li onclick="nodeFunction()">Node.js</li>
+            </a>
+            <div hidden id="nodeDiv">
+              Node.js is an open source server environment that runs on various
+              environment (Windows, Linux, Unix, Mac OS X, etc). It uses
+              JavaScript on the server and it's free.
             </div>
-        </section>
-        <section id="certification">
-            <div>
-                <h2>Certification</h2>
-                <div id="cert-images">
-                    <a href="https://drive.google.com/drive/folders/1gTXUCyYmY_-7IT-ytoFK2YcQm-xQjwb9?usp=sharing" target="blank">
-                        <img src="/images/cert1.jpg" alt="certificate 1" class="img-responsive myImg" style=" width: 200px; height: 200px; ">
-                        <img src="/images/cert2.jpg " alt="certificate 2" class="img-responsive myImg" style="width: 200px; height: 200px; ">
-                        <img src="/images/cert3.jpg " alt="certificate 3" class="img-responsive myImg" style="width: 200px; height: 200px; ">
-                        <img src="/images/cert4.jpg " alt="certificate 4" class="img-responsive myImg" style="width: 200px; height: 200px; ">
-                        <img src="/images/cert5.jpg " alt="certificate 5" class="img-responsive myImg" style="width: 200px; height: 200px; ">
-                    </a>
-                </div>
-                <!-- <div id="myModal" class="modal"> -->
+            <a href="#React.js">
+              <li onclick="reactFunction()">React.js</li>
+            </a>
+            <div hidden id="reactDiv">
+              React makes it painless to create interactive UIs. Design simple
+              views for each state in your application, and React will
+              efficiently update and render just the right components when your
+              data changes.
+            </div>
+            <a href="#WordPress">
+              <li onclick="wordpressFunction()">WordPress</li>
+            </a>
+            <div hidden id="wordpressDiv">
+              WordPress is a free and open-source Content Management System
+              (CMS) written in PHP and paired with a MySQL or MariaDB database.
+            </div>
+            <a href="#jQuery">
+              <li onclick="jQueryFunction()">jQuery</li>
+            </a>
+            <div hidden id="jQueryDiv">
+              jQuery is a fast, small, and feature-rich JavaScript library. It
+              makes things like HTML document traversal and manipulation, event
+              handling, animation, and Ajax much simpler with an easy-to-use API
+              that works across a multitude of browsers. With a combination of
+              versatility and extensibility, jQuery has changed the way that
+              millions of people write JavaScript.
+            </div>
+            <a href="#Bootstrap">
+              <li onclick="bootstrapFunction()">Bootstrap</li>
+            </a>
+            <div hidden id="bootstrapDiv">
+              Bootstrap is the world’s most popular front-end open source
+              toolkit, featuring Sass variables and mixins, responsive grid
+              system, extensive prebuilt components, and powerful JavaScript
+              plugins.
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="community-service">
+        <div>
+          <h2>Community Service</h2>
+          <div>
+          
+            
+            <li><a href="https://lagosfoodbank.org/" target="_blank">Lagos Foodbank Volunter</a></li>
+            <li> <a href="https://developereconomics.com/" target="_blank">Contributor At Developer Economics </a></li>
+       
+        </div>
+        </div>
+        
+      </section>
+      <section id="technical-blog">
+        <div>
+          <h2>Tehnical Blogging</h2>
+          <a
+            href="https://ibekingsley.medium.com/the-difference-between-a-class-and-an-id-selector-39530db2d7e5"
+            target="blank"
+            >THE DIFFERENCE BETWEEN A CLASS AND AN ID SELECTOR.</a
+          >
+        </div>
+      </section>
+      <section id="certification">
+        <div>
+          <h2>Certification</h2>
+          <div id="certLink">
+            <a
+              href="https://drive.google.com/drive/folders/1gTXUCyYmY_-7IT-ytoFK2YcQm-xQjwb9?usp=sharing"
+              target="blank"
+            >
+              View Certificates Here.
+            </a>
+          </div>
+          <!-- <div id="myModal" class="modal"> -->
 
-                <!-- The Close Button -->
-                <!-- <span class="close">&times;</span> -->
+          <!-- The Close Button -->
+          <!-- <span class="close">&times;</span> -->
 
-                <!-- Modal Content (The Image) -->
-                <!-- <img class="modal-content" id="img01"> -->
+          <!-- Modal Content (The Image) -->
+          <!-- <img class="modal-content" id="img01"> -->
 
-                <!-- Modal Caption (Image Text) -->
-                <!-- <div id="caption"></div> -->
-                <!-- </div> -->
-            </div>
-        </section>
-        <section id="let-connect">
-            <div>
-                <h2>Let's Connect</h2>
-                <p>I would love to hear about your web design goal.
-                    <a href="contact.html" id="lets-connect">Click here </a>to send a message</p>
-            </div>
-        </section>
+          <!-- Modal Caption (Image Text) -->
+          <!-- <div id="caption"></div> -->
+          <!-- </div> -->
+        </div>
+      </section>
+      <section id="let-connect">
+        <div>
+          <h2>Let's Connect</h2>
+          <p>
+            I would love to hear about your web design goal.
+            <a href="contact.html" id="lets-connect">Click here </a>to send a
+            message
+          </p>
+        </div>
+      </section>
     </main>
     <footer>Copyright &#169; 2021 Kingsley Ibe</footer>
 
-
     <script src="about.js"></script>
-
-</body>
-
+  </body>
 </html>
