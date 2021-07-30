@@ -37,6 +37,16 @@ ul{
 
 .projects {
     margin: 50px 100px 200px 100px;
+    
+}
+.projects h1{
+    text-align: center;
+    color: #7772ff;
+}
+.projectsDone{
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .projects a {
@@ -50,7 +60,10 @@ ul{
     border-bottom: solid 3px gainsboro;
     border-right: solid 3px gainsboro;
     border-left: solid 3px gainsboro;
-    padding: 10px 0 10px 0;
+    /* padding-left: 10px; */
+    line-height: 1.5em;
+    text-align: center;
+    /* text-indent: 1em; */
 }
 
 footer {
