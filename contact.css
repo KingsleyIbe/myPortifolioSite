@@ -5,11 +5,7 @@ body {
 header {
     background-color: #7772ff;
 }
-.nav{
-    position: fixed;
-  top: 0;
-  width: 100%;
-}
+
 ul{
     list-style-type: none;
     display: inline-flex;
@@ -37,7 +33,7 @@ ul{
 }
 
 .nav a:hover {
-    border: solid 3px #7772ff;
+    border: solid 3px #fff;
     border-radius: 10px;
 }
 
