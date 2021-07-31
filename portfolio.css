@@ -1,16 +1,85 @@
-body {
-    background-color: #fff;
+@media only screen and (min-width: 300px){
+    body {
+        background-color: #fff;
+   }
+   .nav {
+    background-color: #7772ff;
+    display: flex;
 }
-ul{
-    list-style-type: none;
-    display: inline-flex;
+   .nav h2 {
+       color: #fff;
+       margin: 20px;
+       padding: 20px;
+       border: solid 5px #fff;
+       border-radius: 10px;
+   }
+   
+   #navList a {
+       color: #fff;
+       text-decoration: none;
+   }
+   #navList li{
+       position: relative;
+       display: inline-block; 
+       padding: 0;
+        margin: 20px 0 20px 50px;
+       left: 0;
+       font-size: 1.5em;
+       list-style-type: none;
+   }
+   #navList a:hover {
+       border: solid 3px #fff;
+       border-radius: 10px;
+   }
+
+   .projects {
+    margin: 50px 100px 200px 100px;
+    
+}
+.projects h1{
+    text-align: center;
+    color: #7772ff;
+} 
+ .projectsDone{
+    display: inline-block;
+    margin: 50px;
 }
 
+.projects a {
+    text-decoration: none;
+} 
+
+.projects p {
+    width: 89%;
+    background-color: #fff;
+    margin: 0;
+    border-bottom: solid 3px #dcdcdc;
+    border-right: solid 3px #dcdcdc;
+    border-left: solid 3px #dcdcdc;
+    text-align: center;
+    
+    
+
+ }  
+   footer {
+    background-color: #343192;
+    color: #fff;
+    text-align: center; 
+    width: 100%;
+    height: 20%;
+    padding: 50px;
+}
+}/* End of Small Screen */
+
+/*  for Medium Screen */
+@media only screen and (min-width:768px){
+    body {
+     background-color: #fff;
+}
 .nav {
     background-color: #7772ff;
     display: flex;
 }
-
 .nav h2 {
     color: #fff;
     margin: 20px;
@@ -19,77 +88,66 @@ ul{
     border-radius: 10px;
 }
 
-.nav a {
+#navList a {
     color: #fff;
     text-decoration: none;
-    position: relative;
-    display: inline-block;
-    /* padding: 30px 0 50px 50px; */
-    margin: 30px 0 50px 50px;
-    left: 800px;
-    font-size: 1.5em;
 }
-
-.nav a:hover {
+#navList li{
+    position: relative;
+    display: inline-block; 
+    padding: 0;
+     margin: 30px 0 50px 50px;
+    left: 0;
+    font-size: 1.5em;
+    list-style-type: none;
+}
+#navList a:hover {
     border: solid 3px #fff;
     border-radius: 10px;
 }
+}/* End of Medium Screen*/
 
-.projects {
-    margin: 50px 100px 200px 100px;
+/*  for Large Screen */
+@media only screen and (min-width:1024px){
+    body {
+        background-color: #fff;
     
-}
-.projects h1{
-    text-align: center;
-    color: #7772ff;
-}
-.projectsDone{
-    display: inline-block;
-    margin-left: 50px;
-    margin-right: 50px;
-}
+    }
+    header{
+        width: 100%;
+        background-color: #7772ff;
+        
+    }
+    
+    .nav {
+        /* background-color: #7772ff; */
+        display: flex;
 
-.projects a {
-    text-decoration: none;
-}
-
-.projects p {
-    width: 235px;
-    background-color: #fff;
-    margin: 0;
-    border-bottom: solid 3px gainsboro;
-    border-right: solid 3px gainsboro;
-    border-left: solid 3px gainsboro;
-    /* padding-left: 10px; */
-    line-height: 1.5em;
-    text-align: center;
-    /* text-indent: 1em; */
-}
-
-footer {
-    background-color: #343192;
-    color: #fff;
-    text-align: center;
-    /* width: 100%; */
-    height: 5%;
-    padding: 40px;
-}
-
-@media(max-width:700px) {
+    }
+    
     .nav h2 {
         color: #fff;
-        margin: 30px 10px 0 10px;
+        margin: 20px;
         padding: 20px;
         border: solid 5px #fff;
         border-radius: 10px;
-        display: block;
-        text-align: center;
     }
-    .nav a {
+    
+    #navList a {
+        color: #fff;
+        text-decoration: none; 
+    }
+    #navList li{
         position: relative;
-        /* float: left; */
-        left: 0;
-        margin: 150px 10 0 0;
+        display: inline-block; 
+        padding: 0;
+        margin: 30px 0 50px 50px;
+        left: 700px;
         font-size: 1.5em;
     }
-}
+    
+    #navList a:hover {
+        border: solid 3px #fff;
+        border-radius: 10px;
+    } 
+}/* End of Large Screen*/

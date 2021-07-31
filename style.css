@@ -1,7 +1,6 @@
 /*  for Small Screen */
 @media only screen and (min-width: 300px){
     body {
-     background-color: #429bf5; 
      background-color: #7772ff;
 }
 .nav {
@@ -40,8 +39,10 @@
     left: 0;
 }
 .portrait-image img {
-    padding-top: 20px;
+    padding-top: 10px;
+    padding-left:0 ;
     margin-top: 10px;
+    width: 100%;
 }
 
 main {
@@ -90,13 +91,12 @@ footer {
      height: 20%;
     padding: 50px;
 }
-} /* End of Medium Screen */
+} /* End of Small Screen */
 
 
 /*  for Medium Screen */
 @media only screen and (min-width:768px){
     body {
-     background-color: #429bf5; 
      background-color: #7772ff;
 }
 .nav {
@@ -190,7 +190,6 @@ footer {
 /*  for Large Screen */
 @media only screen and (min-width:1024px){
     body {
-        background-color: #429bf5;
         background-color: #7772ff;
     }
     
