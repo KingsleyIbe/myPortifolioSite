@@ -2,6 +2,11 @@
     body {
         background-color: #fff;
    }
+   #myHeader{
+    position:sticky;
+    top: 0;
+    z-index: 1;
+}
    .nav {
     background-color: #7772ff;
     display: flex;
