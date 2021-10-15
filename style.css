@@ -43,6 +43,7 @@
     padding-left:0 ;
     margin-top: 10px;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 main {
@@ -137,6 +138,7 @@ footer {
 .portrait-image img {
     padding-top: 20px;
     margin-top: 10px;
+    /* flex-wrap: wrap; */
 }
 
 main {
