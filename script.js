@@ -19,7 +19,7 @@ window.onload = () => {
     const projectItems = [
       {
         id: 1,
-        title: 'Multi Post Stories',
+        title: 'Github Finder',
         displayImage: '',
         tech: ['Html', 'Bootstrap', 'Ruby on rails'],
         description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.' +
@@ -71,35 +71,42 @@ window.onload = () => {
       },
       {
         id: 5,
-        title: 'Multi Post Stories',
+        title: 'Prudence Concept Website',
         displayImage: '',
-        tech: ['Html', 'Bootstrap', 'Ruby on rails'],
-        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.' +
-        'Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an' + 
-        'unknown printer took a galley of type and scrambled it to make a type specimen book.' + 
-        'It has survived not only five centuries, but also the leap into electronic typesetting,' + 
-        'remaining essent',
+        tech: ['HTML', 'Bootstrap', 'JavaScript'],
+        description: 'Before your visit the live link, let me tell you a bit about Prudence Concept and their awesome work. ' +
+        'Prudence Concept specializes in wedding photography, corporate, family and senior portraits, ' +
+        'often traveling to your destination to capture the perfect moment in the perfect place. ' + 
+        'Supporting their client with every step of the way to guarantee their special moments are captured for all time. ' +
+        'To Prudence, photography is about people being real and then letting creators paint a picture of that moment ' +
+        'to remember it forever. This is the story that matters most: real people, real stories, real moments. ' +
+        'They are incredibly blessed to have a team of photographers who work with them on any given weekend. ' + 
+        'Please take a few minutes to get to know Prudence. They would love to visit with you by phone or in  ' +
+        'person and talk about your wedding, event, portrait session or video project.' +
+        'Please reach out to Prudence to get super quality service. ',
         linkToSource: 'See Source',
         linkToLive: 'See Live'
       },
       {
         id: 6,
-        title: 'Multi Post Stories',
+        title: 'Leads Tracker - Google Chrome Extension',
         displayImage: '',
-        tech: ['Html', 'Bootstrap', 'Ruby on rails'],
-        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.' +
-        'Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an' + 
-        'unknown printer took a galley of type and scrambled it to make a type specimen book.' + 
-        'It has survived not only five centuries, but also the leap into electronic typesetting,' + 
-        'remaining essent',
+        tech: ['HTML', 'CSS', 'JavaScript'],
+        description: 'Leads Tracker can be used to save URL from any website. ' +
+        'Build a list of targeted leads to grow your business from any website. ' + 
+        'For sites with great leads potential as LinkedIn, Leads Tracker can be a tool to save the URL for 1st, ' + 
+        '2nd and 3rd level LinkedIn connections. Just visit any URL you wish to save, ' + 
+        'click on ‘save tab’ button and the URL of your current tab is saved. ' +
+        'You can also add a description of your URL using the ‘save input’ button. ' +
+        'With Lead Tracker, you don’t have to worry about keeping track of important links anymore. ',
         linkToSource: 'See Source',
         linkToLive: 'See Live'
       },
       {
         id: 7,
-        title: 'Multi Post Stories',
+        title: 'Portfolio Website for Software Developer',
         displayImage: '',
-        tech: ['Html', 'Bootstrap', 'Ruby on rails'],
+        tech: ['HTML', 'Bootstrap', 'JavaScript'],
         description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.' +
         'Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an' + 
         'unknown printer took a galley of type and scrambled it to make a type specimen book.' + 
