@@ -21,7 +21,7 @@ window.onload = () => {
         id: 1,
         title: 'Github Finder',
         displayImage: '',
-        tech: ['Html', 'Bootstrap', 'Ruby on rails'],
+        tech: ['CSS', 'JavaScript', 'React'],
         description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.' +
         'Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an' + 
         'unknown printer took a galley of type and scrambled it to make a type specimen book.' + 
@@ -32,9 +32,9 @@ window.onload = () => {
       },
       {
         id: 2,
-        title: 'Multi Post Stories',
+        title: 'Contact Keeper Application',
         displayImage: '',
-        tech: ['Html', 'Bootstrap', 'Ruby on rails'],
+        tech: ['CSS', 'React', 'JavaScript'],
         description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.' +
         'Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an' + 
         'unknown printer took a galley of type and scrambled it to make a type specimen book.' + 
@@ -45,9 +45,9 @@ window.onload = () => {
       },
       {
         id: 3,
-        title: 'Multi Post Stories',
+        title: 'IT Logger Application',
         displayImage: '',
-        tech: ['Html', 'Bootstrap', 'Ruby on rails'],
+        tech: ['CSS', 'JavaScript', 'React'],
         description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.' +
         'Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an' + 
         'unknown printer took a galley of type and scrambled it to make a type specimen book.' + 
@@ -58,9 +58,9 @@ window.onload = () => {
       },
       {
         id: 4,
-        title: 'Multi Post Stories',
+        title: 'Online Conference Page',
         displayImage: '',
-        tech: ['Html', 'Bootstrap', 'Ruby on rails'],
+        tech: ['HTML', 'CSS', 'JavaScript'],
         description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.' +
         'Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an' + 
         'unknown printer took a galley of type and scrambled it to make a type specimen book.' + 
