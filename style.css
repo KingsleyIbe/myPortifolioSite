@@ -82,6 +82,21 @@ div a {
   color: #fff;
 }
 
+.linksBtn button {
+  background-color: #ff6b00;
+  padding: 0.5rem 0.7rem;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border: 1px solid transparent;
+  outline: none;
+}
 
 .btn:hover {
   background-color: #fff5e1;
@@ -119,23 +134,9 @@ div a {
   margin-right: 10px;
 }
 
-.project-list-1 a {
-  padding: 0.5rem 0.5rem;
-  background: none;
-  border: 1px solid #8993a4;
-  color: #091e42;
-  font-size: 15px;
-  font-weight: normal;
-}
-
-.mv-social-media li a {
-  text-decoration: none;
-}
-
-.linksBtn a {
+.mv-project-layout a {
   color: #fff;
 }
-
 
 .menuPopUp a {
   display: flex;
@@ -150,33 +151,34 @@ div a {
   margin-right: 2rem;
 }
 
-.linksBtn button {
-  background-color: #ff6b00;
-  padding: 0.5rem 0.7rem;
-  font-family: "Inter", Arial, Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 17px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
-  border: 1px solid transparent;
-  outline: none;
-}
-
-.mv-project-layout a {
-  color: #fff;
-}
-
 .mv-logo a {
   color: #fff;
   text-decoration: none;
 }
 
+.linksBtn a {
+  color: #fff;
+}
+
+.project-list-1 a {
+  padding: 0.5rem 0.5rem;
+  background: none;
+  border: 1px solid #8993a4;
+  color: #091e42;
+  font-size: 15px;
+  font-weight: normal;
+}
+
 .about-me a {
   color: #fff;
+}
+
+.mobile-project-details ul a {
+  color: #3c3a39;
+}
+
+.mv-social-media li a {
+  text-decoration: none;
 }
 
 .about-me a:hover {
@@ -341,7 +343,6 @@ section .mv-main-text {
 .mv-social-media-footer i {
   color: #505f79;
 }
-
 
 .social-media-icons i:hover {
   zoom: 1.2;
@@ -750,10 +751,6 @@ form .flex-item:hover {
   font-weight: bold;
   font-size: 32px;
   line-height: 44px;
-}
-
-.mobile-project-details ul a {
-  color: #3c3a39;
 }
 
 .mobile-project-details li {
