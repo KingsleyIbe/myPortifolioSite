@@ -5,7 +5,7 @@
 
 ![screenshot](/images/project-desktop-v.jpeg)
 
-In this project you will find links that would help you to learn about me, my recent works,
+In this project you will find links that would help you learn about me, my recent works,
 technologies I used in delivering high performing web application and the contact section for a DM.
 
 I would love to socialize with you also, so I have included my most social media handles.

@@ -22,11 +22,11 @@ window.onload = () => {
         title: 'Github Finder',
         displayImage: '',
         tech: ['CSS', 'JavaScript', 'React'],
-        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.' +
-        'Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an' + 
-        'unknown printer took a galley of type and scrambled it to make a type specimen book.' + 
-        'It has survived not only five centuries, but also the leap into electronic typesetting,' + 
-        'remaining essent',
+        description: 'Github finder react application makes a call to Github API. ' +
+        'For each call, it fetches information about github users and returns the result. ' + 
+        'The application gets the following information from the API: Username, User unique ID, ' + 
+        'public repositories, likes, followers, following, profile info, location, social media links, ' + 
+        'and others.',
         linkToSource: 'See Source',
         linkToLive: 'See Live'
       },
@@ -35,11 +35,11 @@ window.onload = () => {
         title: 'Contact Keeper Application',
         displayImage: '',
         tech: ['CSS', 'React', 'JavaScript'],
-        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.' +
-        'Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an' + 
-        'unknown printer took a galley of type and scrambled it to make a type specimen book.' + 
-        'It has survived not only five centuries, but also the leap into electronic typesetting,' + 
-        'remaining essent',
+        description: 'Contact keeper is used to store contact information such as, ' +
+        'name, email, phone number, address, occupation, and gender. It also allows you to choose contact ' + 
+        'category such as professional or personal. Users will have to create an account and will be required to login ' + 
+        'to access saved contacts. Saved contacts can be edited or deleted at any time. The application uses ' + 
+        'mongoDB to store and manage all data. ',
         linkToSource: 'See Source',
         linkToLive: 'See Live'
       },
@@ -48,11 +48,10 @@ window.onload = () => {
         title: 'IT Logger Application',
         displayImage: '',
         tech: ['CSS', 'JavaScript', 'React'],
-        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.' +
-        'Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an' + 
-        'unknown printer took a galley of type and scrambled it to make a type specimen book.' + 
-        'It has survived not only five centuries, but also the leap into electronic typesetting,' + 
-        'remaining essent',
+        description: 'IT logger is used to keep track of application update. It Tracks the information about: ' +
+        'What kind of update happened on the application (for example a bug fix, new feature added), who made the ' + 
+        'changes, time and date changes were made. You can also schedule changes and state if its urgent or not ' + 
+        'New technicians can be added and old ones can be edited or removed. ',
         linkToSource: 'See Source',
         linkToLive: 'See Live'
       },
@@ -61,11 +60,9 @@ window.onload = () => {
         title: 'Online Conference Page',
         displayImage: '',
         tech: ['HTML', 'CSS', 'JavaScript'],
-        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.' +
-        'Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an' + 
-        'unknown printer took a galley of type and scrambled it to make a type specimen book.' + 
-        'It has survived not only five centuries, but also the leap into electronic typesetting,' + 
-        'remaining essent',
+        description: 'Online conference application is a website that hosts conferences and other events. ' +
+        'Participants will be able to register for events, join online, invite friends, view program details, ' + 
+        'access speakers bio information, contact event planners, etc. ' ,
         linkToSource: 'See Source',
         linkToLive: 'See Live'
       },
@@ -107,11 +104,8 @@ window.onload = () => {
         title: 'Portfolio Website for Software Developer',
         displayImage: '',
         tech: ['HTML', 'Bootstrap', 'JavaScript'],
-        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.' +
-        'Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an' + 
-        'unknown printer took a galley of type and scrambled it to make a type specimen book.' + 
-        'It has survived not only five centuries, but also the leap into electronic typesetting,' + 
-        'remaining essent',
+        description: "A one page leading page of a software developer. You will have access to developer's " +
+        'recent projects, tools and technologies, skills, contact information and a brief history. ',
         linkToSource: 'See Source',
         linkToLive: 'See Live'
       }
