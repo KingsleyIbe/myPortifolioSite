@@ -737,6 +737,7 @@ form .flex-item:hover {
   padding: 20px 20px 0 20px;
   position: fixed;
   list-style: none;
+  overflow: auto;
 }
 
 .closeBtn-1 h2 {
