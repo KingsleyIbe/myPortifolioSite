@@ -70,7 +70,7 @@ window.onload = () => {
       },
       {
         id: 5,
-        title: 'Prudence Concept Website',
+        title: 'Prudence Concept Website ',
         displayImage: '',
         tech: ['HTML', 'Bootstrap', 'JavaScript'],
         description: 'Before your visit the live link, let me tell you a bit about Prudence Concept and their awesome work. ' +
