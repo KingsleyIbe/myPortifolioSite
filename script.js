@@ -1,3 +1,5 @@
+// const { title } = require("process");
+
 window.onload = () => {
     const hamburger = document.querySelector('.menu1');
     const closeBtn = document.querySelector('.closeBtn');
@@ -151,10 +153,10 @@ window.onload = () => {
       const techList2 = document.querySelector('.tech-list-2').innerHTML=projectItems[0].tech[2];
       const featureImage = document.querySelector('.image').innerHTML=projectItems[0].displayImage;
       const projectDescription = document.querySelector('.description').innerHTML=projectItems[0].description;
-      const liveBtn = document.querySelector('.live-btn').innerHTML=projectItems[0].linkToLive;
-      const sourceBtn = document.querySelector('.source-btn').innerHTML=projectItems[0].linkToSource;
+      const liveBtn = document.querySelector('.live-btn').innerHTML=`<a href="https://kingsleyibe.github.io/Github-Finder/" target="_blank">${projectItems[0].linkToLive}</a>`;
+      const sourceBtn = document.querySelector('.source-btn').innerHTML=`<a href="https://github.com/KingsleyIbe/Github-Finder" target="_blank">${projectItems[0].linkToSource}</a>`;
     });
-  
+    
     projectBtn2.addEventListener('click', () => {
       const projectDetails = document.querySelector('.mobile-project-details');
       projectDetails.style.display = 'block';
@@ -165,8 +167,8 @@ window.onload = () => {
       const techList2 = document.querySelector('.tech-list-2').innerHTML=projectItems[1].tech[2];
       const featureImage = document.querySelector('.image').innerHTML=projectItems[1].displayImage;
       const projectDescription = document.querySelector('.description').innerHTML=projectItems[1].description;
-      const liveBtn = document.querySelector('.live-btn').innerHTML=projectItems[1].linkToLive;
-      const sourceBtn = document.querySelector('.source-btn').innerHTML=projectItems[1].linkToSource;
+      const liveBtn = document.querySelector('.live-btn').innerHTML=`<a href="https://kingsleyibe.github.io/Contact-Keeper/" target="_blank">${projectItems[1].linkToLive}</a>`;
+      const sourceBtn = document.querySelector('.source-btn').innerHTML=`<a href="https://github.com/KingsleyIbe/Contact-Keeper" target="_blank">${projectItems[1].linkToSource}</a>`;
     });
   
     projectBtn3.addEventListener('click', () => {
@@ -179,8 +181,8 @@ window.onload = () => {
       const techList2 = document.querySelector('.tech-list-2').innerHTML=projectItems[2].tech[2];
       const featureImage = document.querySelector('.image').innerHTML=projectItems[2].displayImage;
       const projectDescription = document.querySelector('.description').innerHTML=projectItems[2].description;
-      const liveBtn = document.querySelector('.live-btn').innerHTML=projectItems[2].linkToLive;
-      const sourceBtn = document.querySelector('.source-btn').innerHTML=projectItems[2].linkToSource;
+      const liveBtn = document.querySelector('.live-btn').innerHTML=`<a href="https://kingsleyibe.github.io/IT-LOGGER-REACT-PROJECT/" target="_blank">${innerHTML=projectItems[2].linkToLive}</a>`;
+      const sourceBtn = document.querySelector('.source-btn').innerHTML=`<a href="https://github.com/KingsleyIbe/IT-LOGGER-REACT-PROJECT" target="_blank">${innerHTML=projectItems[2].linkToSource}</a>`;
     });
   
     projectBtn4.addEventListener('click', () => {
@@ -193,8 +195,8 @@ window.onload = () => {
       const techList2 = document.querySelector('.tech-list-2').innerHTML=projectItems[3].tech[2];
       const featureImage = document.querySelector('.image').innerHTML=projectItems[3].displayImage;
       const projectDescription = document.querySelector('.description').innerHTML=projectItems[0].description;
-      const liveBtn = document.querySelector('.live-btn').innerHTML=projectItems[3].linkToLive;
-      const sourceBtn = document.querySelector('.source-btn').innerHTML=projectItems[3].linkToSource;
+      const liveBtn = document.querySelector('.live-btn').innerHTML=`<a href="https://kingsleyibe.github.io/microverse-capstone-1/" target="_blank">${innerHTML=projectItems[3].linkToLive}</a>`;
+      const sourceBtn = document.querySelector('.source-btn').innerHTML=`<a href="https://github.com/KingsleyIbe/microverse-capstone-1" target="_blank">${innerHTML=projectItems[3].linkToSource}</a>`;
     });
   
     projectBtn5.addEventListener('click', () => {
@@ -207,8 +209,8 @@ window.onload = () => {
       const techList2 = document.querySelector('.tech-list-2').innerHTML=projectItems[4].tech[2];
       const featureImage = document.querySelector('.image').innerHTML=projectItems[4].displayImage;
       const projectDescription = document.querySelector('.description').innerHTML=projectItems[4].description;
-      const liveBtn = document.querySelector('.live-btn').innerHTML=projectItems[4].linkToLive;
-      const sourceBtn = document.querySelector('.source-btn').innerHTML=projectItems[4].linkToSource;
+      const liveBtn = document.querySelector('.live-btn').innerHTML=`<a href="https://kingsleyibe.github.io/Prudence-Concept-Website/" target="_blank">${innerHTML=projectItems[4].linkToLive}</a>`;
+      const sourceBtn = document.querySelector('.source-btn').innerHTML=`<a href="https://github.com/KingsleyIbe/Prudence-Concept-Website" target="_blank">${innerHTML=projectItems[4].linkToSource}</a>`;
     });
   
     projectBtn6.addEventListener('click', () => {
@@ -221,8 +223,10 @@ window.onload = () => {
       const techList2 = document.querySelector('.tech-list-2').innerHTML=projectItems[5].tech[2];
       const featureImage = document.querySelector('.image').innerHTML=projectItems[5].displayImage;
       const projectDescription = document.querySelector('.description').innerHTML=projectItems[5].description;
-      const liveBtn = document.querySelector('.live-btn').innerHTML=projectItems[5].linkToLive;
-      const sourceBtn = document.querySelector('.source-btn').innerHTML=projectItems[5].linkToSource;
+      const liveBtn = document.querySelector('.live-btn').innerHTML=`
+      <a href="https://chrome.google.com/webstore/detail/leads-tracker/ocokmojbnnoapdbobddbcbcbegolglfh?utm_source=googleads&utm_medium=adgroup5&utm_campaign=adgroup5&utm_id=adgroup5&gclid=Cj0KCQiAhf2MBhDNARIsAKXU5GSn3J5SGnJ0dwBLFK13cTWp7XNvcg2Cu0TkXrkzaJi9jvIVH8n-QHIaAo5FEALw_wcB" 
+      target="_blank">${innerHTML=projectItems[5].linkToLive}</a>`;
+      const sourceBtn = document.querySelector('.source-btn').innerHTML=`<a href="https://github.com/KingsleyIbe/LeadsTrackerChromeExtension" target="_blank">${innerHTML=projectItems[5].linkToSource}</a>`;
     });
   
     projectBtn7.addEventListener('click', () => {
@@ -235,8 +239,8 @@ window.onload = () => {
       const techList2 = document.querySelector('.tech-list-2').innerHTML=projectItems[6].tech[2];
       const featureImage = document.querySelector('.image').innerHTML=projectItems[6].displayImage;
       const projectDescription = document.querySelector('.description').innerHTML=projectItems[6].description;
-      const liveBtn = document.querySelector('.live-btn').innerHTML=projectItems[6].linkToLive;
-      const sourceBtn = document.querySelector('.source-btn').innerHTML=projectItems[6].linkToSource;
+      const liveBtn = document.querySelector('.live-btn').innerHTML=`<a href="https://kingsleyibe.github.io/Microverse-Portfolio-Assignment/" target="_blank">${innerHTML=projectItems[6].linkToLive}</a>`;
+      const sourceBtn = document.querySelector('.source-btn').innerHTML=`<a href="https://github.com/KingsleyIbe/Microverse-Portfolio-Assignment" target="_blank">${innerHTML=projectItems[6].linkToSource}</a>`;
     });
   
     form.addEventListener('submit', (event) => {
