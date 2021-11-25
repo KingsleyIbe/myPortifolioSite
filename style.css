@@ -484,22 +484,27 @@ section .mv-main-text {
   width: 100%;
 }
 
-.btn-3,
-.btn-4 {
+.btn-3 {
   position: relative;
   top: 45px;
   z-index: 100;
 }
 
+.btn-4 {
+  position: relative;
+  top: 1px;
+  z-index: 100;
+}
+
 .btn-6 {
   position: relative;
-  top: 22px;
+  top: 25px;
   z-index: 100;
 }
 
 .btn-7 {
   position: relative;
-  top: 40px;
+  top: 50px;
   z-index: 100;
 }
 
@@ -883,6 +888,7 @@ form .flex-item:hover {
     max-width: 566px;
     margin-right: auto;
     margin-left: 2rem;
+    margin-bottom: 200px;
   }
 
   .intro h1 {
@@ -1250,6 +1256,7 @@ form .flex-item:hover {
     max-width: 566px;
     margin-right: auto;
     margin-left: 2rem;
+    margin-bottom: 200px;
   }
 
   .intro h1 {
