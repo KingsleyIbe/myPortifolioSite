@@ -437,7 +437,7 @@ section .mv-main-text {
 
 .mv-project-layout {
   margin-top: 0;
-  padding-top: 70px;
+  padding-top: 40px;
   background-color: #000;
   opacity: 0.8;
 }
@@ -482,6 +482,25 @@ section .mv-main-text {
 
 .project-2-btn {
   width: 100%;
+}
+
+.btn-3, 
+.btn-4 {
+  position: relative;
+  top: 45px;
+  z-index: 100;
+}
+
+.btn-6 {
+  position: relative;
+  top: 22px;
+  z-index: 100;
+}
+
+.btn-7 {
+  position: relative;
+  top: 40px;
+  z-index: 100;
 }
 
 .about-section {
