@@ -103,11 +103,11 @@ window.onload = () => {
       },
       {
         id: 7,
-        title: 'Portfolio Website for Software Developer',
+        title: 'World Covid-19 Metrics WebApp',
         displayImage: '',
-        tech: ['HTML', 'Bootstrap', 'JavaScript'],
-        description: "A one page leading page of a software developer. You will have access to developer's " +
-        'recent projects, tools and technologies, skills, contact information and a brief history. ',
+        tech: ['React', 'CSS', 'JavaScript'],
+        description: 'This web application get covid-19 data of different countries. ' +
+        'User can filter search by country name, then click on the country to get full details. ',
         linkToSource: 'See Source',
         linkToLive: 'See Live'
       }
@@ -239,8 +239,8 @@ window.onload = () => {
       const techList2 = document.querySelector('.tech-list-2').innerHTML=projectItems[6].tech[2];
       const featureImage = document.querySelector('.image').innerHTML=projectItems[6].displayImage;
       const projectDescription = document.querySelector('.description').innerHTML=projectItems[6].description;
-      const liveBtn = document.querySelector('.live-btn').innerHTML=`<a href="https://kingsleyibe.github.io/Microverse-Portfolio-Assignment/" target="_blank">${innerHTML=projectItems[6].linkToLive}</a>`;
-      const sourceBtn = document.querySelector('.source-btn').innerHTML=`<a href="https://github.com/KingsleyIbe/Microverse-Portfolio-Assignment" target="_blank">${innerHTML=projectItems[6].linkToSource}</a>`;
+      const liveBtn = document.querySelector('.live-btn').innerHTML=`<a href="https://kingsleyibe.github.io/metrics-webapp/" target="_blank">${innerHTML=projectItems[6].linkToLive}</a>`;
+      const sourceBtn = document.querySelector('.source-btn').innerHTML=`<a href="https://github.com/KingsleyIbe/metrics-webapp" target="_blank">${innerHTML=projectItems[6].linkToSource}</a>`;
     });
   
     form.addEventListener('submit', (event) => {
