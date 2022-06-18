@@ -153,7 +153,7 @@ window.onload = () => {
       const techList2 = document.querySelector('.tech-list-2').innerHTML=projectItems[0].tech[2];
       const featureImage = document.querySelector('.image').innerHTML=projectItems[0].displayImage;
       const projectDescription = document.querySelector('.description').innerHTML=projectItems[0].description;
-      const liveBtn = document.querySelector('.live-btn').innerHTML=`<a href="https://kingsleyibe.github.io/Github-Finder/" target="_blank">${projectItems[0].linkToLive}</a>`;
+      const liveBtn = document.querySelector('.live-btn').innerHTML=`<a href="https://githubfinder83948989.netlify.app/" target="_blank">${projectItems[0].linkToLive}</a>`;
       const sourceBtn = document.querySelector('.source-btn').innerHTML=`<a href="https://github.com/KingsleyIbe/Github-Finder" target="_blank">${projectItems[0].linkToSource}</a>`;
     });
     
