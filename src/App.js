@@ -1,8 +1,15 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Header from './component/Header/Header';
+
 function App() {
   return (
-    <div className="text-center font-bold">
-      New Design with React
-    </div>
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Header />} />
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 
