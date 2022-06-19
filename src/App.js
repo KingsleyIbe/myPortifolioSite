@@ -1,6 +1,6 @@
 function App() {
   return (
-    <div className="App">
+    <div className="text-center font-bold">
       New Design with React
     </div>
   );
