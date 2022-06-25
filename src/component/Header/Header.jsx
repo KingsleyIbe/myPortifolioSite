@@ -14,7 +14,9 @@ const Header = () => (
           <li><NavLink to="/" className="hover:opacity-[0.5]">Portfolio</NavLink></li>
           <li><NavLink to="/#about" className="hover:opacity-[0.5]">About</NavLink></li>
           <li><NavLink to="/#contact" className="hover:opacity-[0.5]">Contact</NavLink></li>
+          <li><NavLink to="/#contact" className="hover:opacity-[0.5]">Blog</NavLink></li>
           <li><NavLink to="/#envelop"><FontAwesomeIcon icon={faEnvelope} className="text-[30px]" /></NavLink></li>
+          <li className="ml-[100px]"><button type="button"><a href="./images/kingsley-ibe-cv.pdf" download="Kingsley Ibe resume">Get My Resume</a></button></li>
         </ul>
       </nav>
     </header>

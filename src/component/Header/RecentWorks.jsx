@@ -62,9 +62,9 @@ const RecentWorks = () => {
   return (
     <div className="mx-10 my-[200px]">
       <section>
-        <div className="flex gap-x-2 items-center w-[80%] m-auto">
+        <div className="items-center w-[80%] m-auto">
           <h1 className="text-[51px] mb-10">My Recent Projects</h1>
-          <hr className="text-[#000] h-[3px]" />
+          <hr className="project-border" />
         </div>
         <div className="gap-x-5 items-center text-[#fff] text-[30px] my-10 w-[80%] m-auto">
           {data.map((item) => (
