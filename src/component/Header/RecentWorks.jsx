@@ -27,6 +27,32 @@ const RecentWorks = () => {
       liveDemo: '',
       sourceCode: '',
     },
+    {
+      screenShot: gitFinder,
+      title: 'GitHub Finder',
+      description: 'Github finder react application makes a call to Github API. '
+      + 'For each call, it fetches information about github users and returns the result. '
+      + 'The application gets the following information from the API: Username, User unique ID, '
+      + 'public repositories, likes, followers, following, profile info, location, social media links, '
+      + 'and others.',
+      tech: ['CSS', 'JavaScript', 'React', 'REST API'],
+      alt: 'Project screenshot',
+      liveDemo: '',
+      sourceCode: '',
+    },
+    {
+      screenShot: gitFinder,
+      title: 'GitHub Finder',
+      description: 'Github finder react application makes a call to Github API. '
+      + 'For each call, it fetches information about github users and returns the result. '
+      + 'The application gets the following information from the API: Username, User unique ID, '
+      + 'public repositories, likes, followers, following, profile info, location, social media links, '
+      + 'and others.',
+      tech: ['CSS', 'JavaScript', 'React', 'REST API'],
+      alt: 'Project screenshot',
+      liveDemo: '',
+      sourceCode: '',
+    },
     // {
     //   screenShot: leadsTracker, title: 'title', detailsLink: 'details',
     // tech: ['JavaScript', 'React', 'Rails', 'Ruby'], description: 'brief', alt: 'alt',
@@ -38,11 +64,11 @@ const RecentWorks = () => {
       <section>
         <div className="flex gap-x-2 items-center w-[80%] m-auto">
           <h1 className="text-[51px] mb-10">My Recent Projects</h1>
-          <hr />
+          <hr className="text-[#000] h-[3px]" />
         </div>
-        <div className="flex gap-x-5 items-center text-[#fff] text-[30px] my-10 w-[80%] m-auto">
+        <div className="gap-x-5 items-center text-[#fff] text-[30px] my-10 w-[80%] m-auto">
           {data.map((item) => (
-            <ul key={uuidv4()} className=" flex gap-x-5 project-border p-5 bg-[#1c1a19]">
+            <ul key={uuidv4()} className="my-10 flex gap-x-5 project-border p-5 bg-[#1c1a19]">
               <li>
                 <img src={item.screenShot} alt={item.alt} className="min-w-[600px] min-h-[100%]" />
               </li>
