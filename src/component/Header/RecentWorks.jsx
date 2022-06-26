@@ -63,8 +63,7 @@ const RecentWorks = () => {
     <div className="mx-10 my-[200px]">
       <section>
         <div className="items-center w-[80%] m-auto">
-          <h1 className="text-[51px] mb-10">My Recent Projects</h1>
-          <hr className="project-border" />
+          <h1 className="text-[51px] mb-10 text-[#ff6b00]">My Recent Projects</h1>
         </div>
         <div className="gap-x-5 items-center text-[#fff] text-[30px] my-10 w-[80%] m-auto">
           {data.map((item) => (
