@@ -23,6 +23,10 @@ body {
   border-radius: 10px;
 }
 
+.b-border {
+  border: 1px solid #ff6b00;
+}
+
 hr {
   height: 10px;
 }

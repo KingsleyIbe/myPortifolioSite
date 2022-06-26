@@ -16,7 +16,7 @@ const Header = () => (
           <li><NavLink to="/#contact" className="hover:opacity-[0.5]">Contact</NavLink></li>
           <li><NavLink to="/#contact" className="hover:opacity-[0.5]">Blog</NavLink></li>
           <li><NavLink to="/#envelop"><FontAwesomeIcon icon={faEnvelope} className="text-[30px]" /></NavLink></li>
-          <li className="ml-[100px]"><button type="button"><a href="./images/kingsley-ibe-cv.pdf" download="Kingsley Ibe resume">Get My Resume</a></button></li>
+          <li className="ml-[100px] b-border p-2"><button type="button"><a href="./images/kingsley-ibe-cv.pdf" download="Kingsley Ibe resume">Get My Resume</a></button></li>
         </ul>
       </nav>
     </header>
