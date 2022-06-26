@@ -1,7 +1,7 @@
 import React from 'react';
 import bgImage from '../../assets/images/Illustration-header.png';
 import SocialMedia from './SocialMedia';
-import kingsley from '../../assets/images/KingsleyIbe2.jpg';
+// import kingsley from '../../assets/images/KingsleyIbe2.jpg';
 
 const Intro = () => (
   <div className="bg-[#1c1a19] p-10">
@@ -21,9 +21,9 @@ const Intro = () => (
             <SocialMedia />
           </div>
         </div>
-        <div>
+        {/* <div>
           <img src={kingsley} alt="Profile display icon" className="rounded-full" />
-        </div>
+        </div> */}
       </div>
       <div>
         <img src={bgImage} alt="Icon decorator" className="absolute top-[110px] opacity-[0.6] right-0" />

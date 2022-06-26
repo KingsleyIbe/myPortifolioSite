@@ -4,13 +4,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const Header = () => (
-  <div className="header bg-[#3c3a39] p-10">
+  <div className="header fixed z-50 bg-[#3c3a39] p-10">
     <header className="">
-      <nav className="flex gap-x-10 items-center text-[20px] font-bold text-[#fff] relative">
+      <nav className="flex gap-x-10 items-center text-[25px] font-bold text-[#fff] relative">
         <span>
-          <h1>Let&#39;s connect</h1>
+          <NavLink to="/">Let&#39;s connect</NavLink>
         </span>
-        <ul className="flex gap-x-10 items-center absolute right-0">
+        <ul className="flex gap-x-10 items-center">
           <li><NavLink to="/" className="hover:opacity-[0.5]">Home</NavLink></li>
           <li><NavLink to="/portfolio" className="hover:opacity-[0.5]">Portfolio</NavLink></li>
           <li><NavLink to="/#about" className="hover:opacity-[0.5]">About</NavLink></li>
