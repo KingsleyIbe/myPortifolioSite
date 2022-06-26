@@ -4,6 +4,7 @@ import decorator from '../../assets/images/illustration-about-me.png';
 import rectangle55 from '../../assets/images/Rectangle-55.png';
 import rectangle56 from '../../assets/images/Rectangle-56.png';
 import rectangle57 from '../../assets/images/Rectangle-57.png';
+import gif from '../../assets/images/person-juggling-joypixel.gif';
 
 const AboutMe = () => (
   <div className="p-10 bg-[#1c1a19] ml-[200px]">
@@ -26,6 +27,7 @@ const AboutMe = () => (
           don’t hesitate to contact me.
 
         </p>
+        <img src={gif} alt="Juggling Gif" className="w-[100px] mt-10" />
       </div>
       <div className="absolute right-0 top-[100px]">
         <img src={decorator} alt="Decorator design" />
