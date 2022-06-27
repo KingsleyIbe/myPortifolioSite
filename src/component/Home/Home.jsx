@@ -2,15 +2,15 @@ import React from 'react';
 import AboutMe from './AboutMe';
 import Footer from '../Common/Footer';
 import GetInTouch from './GetInTouch';
-import Header from '../Header/Header';
 import Intro from './Intro';
-import RecentWorks from './RecentWorks';
+import Portfolio from '../Portfolio/Portfolio';
 
 const Home = () => (
   <main>
-    <Header />
     <Intro />
-    <RecentWorks />
+    <div className="my-[200px]">
+      <Portfolio />
+    </div>
     <AboutMe />
     <GetInTouch />
     <Footer />
