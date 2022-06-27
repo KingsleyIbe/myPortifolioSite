@@ -1,7 +1,5 @@
 import React from 'react';
 import { v4 as uuidv4 } from 'uuid';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faGithub, faLinkedin, faYoutube, faTwitter, faInstagram, faStackOverflow,
@@ -53,7 +51,7 @@ const SocialMedia = () => {
           <ul key={uuidv4()}>
             <li>
               <a href={item.href} target={item.target}>
-                <FontAwesomeIcon icon={item.icon} alt={item.alt} />
+                <FontAwesomeIcon icon={item.icon} alt={item.alt} className="fa-envelope" />
               </a>
 
             </li>

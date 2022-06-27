@@ -1,7 +1,6 @@
 import React from 'react';
 import bgImage from '../../assets/images/Illustration-header.png';
-import SocialMedia from './SocialMedia';
-// import kingsley from '../../assets/images/KingsleyIbe2.jpg';
+import SocialMedia from '../Common/SocialMedia';
 
 const Intro = () => (
   <div className="bg-[#1c1a19] p-10">

@@ -1,19 +1,11 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { v4 as uuidv4 } from 'uuid';
-// import leadsTracker from '../../assets/images/leadsTracker.jpeg';
 import gitFinder from '../../assets/images/GithubFinder.jpeg';
+import arrowRight from '../../assets/images/arrowRight.png';
 
 const RecentWorks = () => {
   const data = [
-    // {
-    //   screenShot: leadsTracker,
-    //   title: 'Leads Tracker Chrome Extension Leads Tracker Chrome Extension',
-    //   detailsLink: 'details',
-    //   tech: ['JavaScript', 'React', 'Rails', 'Ruby'],
-    //   description: 'brief',
-    //   alt: 'alt',
-    // },
     {
       screenShot: gitFinder,
       title: 'GitHub Finder',
@@ -53,10 +45,6 @@ const RecentWorks = () => {
       liveDemo: '',
       sourceCode: '',
     },
-    // {
-    //   screenShot: leadsTracker, title: 'title', detailsLink: 'details',
-    // tech: ['JavaScript', 'React', 'Rails', 'Ruby'], description: 'brief', alt: 'alt',
-    // },
   ];
 
   return (
@@ -88,6 +76,10 @@ const RecentWorks = () => {
             </ul>
           ))}
         </div>
+        <Link to="/portfolio" className="flex gap-x-5 items-center text-[#fff] bg-[#ff6b00] m-auto w-[210px] text-center p-5 project-border-1 text-[20px]">
+          <p>More Projects</p>
+          <img src={arrowRight} alt="Arrow point right" />
+        </Link>
       </section>
     </div>
   );

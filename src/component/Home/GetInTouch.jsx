@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import line from '../../assets/images/line12.png';
-import SocialMedia from './SocialMedia';
+import SocialMedia from '../Common/SocialMedia';
 
 const GetInTouch = () => (
   <section className="my-[100px]">
