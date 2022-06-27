@@ -20,13 +20,25 @@ const AboutMe = () => (
           don’t hesitate to contact me.
 
         </p>
-        <p>
-          Hello I’m a software developer! I can help you build a product,
-          feature or website. Look through some of my work and experience!
-          If you like what you see and have a project you need coded,
-          don’t hesitate to contact me.
+        <ul className="list-disc">
+          <li> I’m interested in developing software applications to solve real-world problems.</li>
+          <li> I’m constantly learning and improving on new software tools &amp; technologies.</li>
+          <li> Currently a Software Engineer with Innovate Global.</li>
+          <li>
+            {' '}
+            Contributor
+            {' '}
+            <a href="https://oscafrica.org/" target="_blank" className="text-[#ff6b00] underline" rel="noreferrer">Open Source Community Africa oscafrica.</a>
+          </li>
+          <li> At leisure, I love to take photos of nature and play chess.</li>
+          <li>
+            {' '}
+            I also blog about my favorite topics. Check it out
+            {' '}
+            <a href="https://medium.com/@ibekingsley" target="_blank" className="text-[#ff6b00] underline" rel="noreferrer">here.</a>
+          </li>
 
-        </p>
+        </ul>
         <img src={gif} alt="Juggling Gif" className="w-[100px] mt-10" />
       </div>
       <div className="absolute right-0 top-[100px]">
