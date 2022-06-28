@@ -23,7 +23,7 @@ const Header = () => {
             <li><NavLink to="/about" className="hover:opacity-[0.5]" style={navLinksStyles}>About</NavLink></li>
             <li><NavLink to="/contact" className="hover:opacity-[0.5]" style={navLinksStyles}>Contact</NavLink></li>
             <li><a href="mailto:ibekingsley66@gmail.com" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faEnvelope} className="text-[30px]" /></a></li>
-            <li className="ml-[100px] b-border p-2"><button type="button"><NavLink to="/resume" download="Kingsley Ibe resume">Get My Resume</NavLink></button></li>
+            <li className="ml-[100px] b-border p-2 btn-hover"><button type="button"><NavLink to="/resume">Get My Resume</NavLink></button></li>
           </ul>
         </nav>
       </header>

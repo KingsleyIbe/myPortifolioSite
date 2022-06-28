@@ -28,14 +28,14 @@ const Portfolio = () => {
                   <p className="project-border-1 p-2">{item.tech[3]}</p>
                 </li>
                 <li className="flex gap-x-10 items-center mt-10">
-                  <a href={item.liveDemo} className="bg-[#ff6b00] p-2 text-[#fff] b-radius">Live Demo</a>
-                  <a href={item.sourceCode} className="bg-[#ff6b00] p-2 text-[#fff] b-radius">Source Code</a>
+                  <a href={item.liveDemo} className="bg-[#ff6b00] p-2 text-[#fff] btn-hover b-radius">Live Demo</a>
+                  <a href={item.sourceCode} className="bg-[#ff6b00] p-2 text-[#fff] btn-hover b-radius">Source Code</a>
                 </li>
               </li>
             </ul>
           ))}
         </div>
-        <Link to="/portfolio" className="flex gap-x-5 items-center text-[#fff] bg-[#ff6b00] m-auto w-[210px] text-center p-5 project-border-1 text-[20px]">
+        <Link to="/portfolio" className="flex gap-x-5 items-center btn-hover text-[#fff] bg-[#ff6b00] m-auto w-[210px] text-center p-5 project-border-1 text-[20px]">
           <p>More Projects</p>
           <img src={arrowRight} alt="Arrow point right" />
         </Link>
