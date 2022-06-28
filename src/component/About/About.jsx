@@ -6,7 +6,7 @@ import rectangle56 from '../../assets/images/Rectangle-56.png';
 import rectangle57 from '../../assets/images/Rectangle-57.png';
 import gif from '../../assets/images/person-juggling-joypixel.gif';
 
-const AboutMe = () => (
+const About = () => (
   <div className="p-10 bg-[#1c1a19] ml-[200px]">
     <section className="relative">
       <div className="">
@@ -20,6 +20,25 @@ const AboutMe = () => (
           don’t hesitate to contact me.
 
         </p>
+        <ul className="list-disc">
+          <li> I’m interested in developing software applications to solve real-world problems.</li>
+          <li> I’m constantly learning and improving on new software tools &amp; technologies.</li>
+          <li> Currently searching for a Software Engineer role.</li>
+          <li>
+            {' '}
+            Contributor
+            {' '}
+            <a href="https://oscafrica.org/" target="_blank" className="text-[#ff6b00] underline" rel="noreferrer">Open Source Community Africa oscafrica.</a>
+          </li>
+          <li> At leisure, I love to take photos of nature and play chess.</li>
+          <li>
+            {' '}
+            I also blog about my favorite topics. Check it out
+            {' '}
+            <a href="https://medium.com/@ibekingsley" target="_blank" className="text-[#ff6b00] underline" rel="noreferrer">here.</a>
+          </li>
+
+        </ul>
         <img src={gif} alt="Juggling Gif" className="w-[100px] mt-10" />
       </div>
       <div className="absolute right-0 top-[100px]">
@@ -84,10 +103,10 @@ const AboutMe = () => (
       </div>
       <div className="flex gap-x-10 items-center text-[#fff] my-5">
         <button type="button" className="p-5 bg-[#ff6b00] b-radius btn-hover"><Link to="/resume">Get My Resume</Link></button>
-        <Link to="/about" className="p-5 bg-[#ff6b00] b-radius btn-hover">Read More</Link>
+        <Link to="/contact" className="p-5 bg-[#ff6b00] b-radius btn-hover">Get In Touch</Link>
       </div>
     </section>
   </div>
 );
 
-export default AboutMe;
+export default About;

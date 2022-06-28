@@ -75,3 +75,9 @@ hr {
     transform: scale(1);
   }
 }
+
+.btn-hover:hover {
+  background-color: #fff;
+  color: #ff6b00;
+  border: #ff6b00 1px solid;
+}

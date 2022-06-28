@@ -2,12 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { v4 as uuidv4 } from 'uuid';
 import arrowRight from '../../assets/images/arrowRight.png';
-import Data from './PortfolioData';
+import Data from '../Portfolio/PortfolioData';
 
 const Portfolio = () => {
   const data = Data;
   return (
-    <div className="mx-10 relative top-[200px]">
+    <div className="mx-10">
       <section>
         <div className="items-center w-[80%] m-auto">
           <h1 className="text-[51px] mb-10 text-[#ff6b00]">My Recent Projects</h1>
@@ -35,8 +35,8 @@ const Portfolio = () => {
             </ul>
           ))}
         </div>
-        <Link to="/contact" className="flex gap-x-5 items-center text-[#fff] bg-[#ff6b00] m-auto w-[210px] text-center p-5 project-border-1 text-[20px] mt-[100px]">
-          <p>Get In Touch</p>
+        <Link to="/portfolio" className="flex gap-x-5 items-center text-[#fff] bg-[#ff6b00] m-auto w-[210px] text-center p-5 project-border-1 text-[20px]">
+          <p>More Projects</p>
           <img src={arrowRight} alt="Arrow point right" />
         </Link>
       </section>

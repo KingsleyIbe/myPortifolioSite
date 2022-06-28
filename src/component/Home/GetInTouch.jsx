@@ -22,7 +22,7 @@ const GetInTouch = () => (
         <SocialMedia />
       </div>
       <div className="m-auto w-[15%] ">
-        <Link to="/contact" className="text-[40px] bg-[#ff6b00] text-[#fff] p-2 project-border">Send Message</Link>
+        <Link to="/contact" className="text-[40px] bg-[#ff6b00] text-[#fff] p-2 project-border btn-hover">Send Message</Link>
       </div>
     </div>
   </section>

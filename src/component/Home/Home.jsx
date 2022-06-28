@@ -3,12 +3,12 @@ import AboutMe from './AboutMe';
 import Footer from '../Common/Footer';
 import GetInTouch from './GetInTouch';
 import Intro from './Intro';
-import Portfolio from '../Portfolio/Portfolio';
+import Portfolio from './Portfolio';
 
 const Home = () => (
   <main>
     <Intro />
-    <div className="my-[200px]">
+    <div className="mt-[100px] mb-[300px]">
       <Portfolio />
     </div>
     <AboutMe />
