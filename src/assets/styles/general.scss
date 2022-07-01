@@ -1,3 +1,7 @@
+.mobile-header {
+  display: none;
+}
+
 input,
 textarea {
   background-color: #1c1a19;
@@ -67,4 +71,14 @@ hr {
   background-color: #fff;
   color: #ff6b00;
   border: #ff6b00 1px solid;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    display: none;
+  }
+
+  .mobile-header {
+    display: block;
+  }
 }

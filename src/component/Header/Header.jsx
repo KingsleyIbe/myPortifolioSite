@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/control-has-associated-label */
-import React from 'react';
+import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
@@ -10,12 +10,21 @@ const Header = () => {
     color: isActive ? '#ff6b00' : '#fff',
   });
 
+  const [openMenu, setOpenMenu] = useState(false);
+  const mobileMenu = () => {
+    if (openMenu === false) {
+      setOpenMenu(true);
+    } else {
+      openMenu(false);
+    }
+  };
+
   return (
     <div className="header fixed z-50 bg-[#3c3a39] min-w-[100%] p-10">
       <header className="">
         <nav className="flex gap-x-10 items-center text-[25px] font-bold text-[#fff]">
           <span>
-            <NavLink to="/contact" className="logo">Let&#39;s connect</NavLink>
+            <NavLink to="/contact" className="logo" onClick={mobileMenu}>Let&#39;s connect</NavLink>
           </span>
           <ul className="flex gap-x-10 items-center absolute right-0 mr-10">
             <li><NavLink to="/" className="hover:opacity-[0.5]" style={navLinksStyles}>Home</NavLink></li>
