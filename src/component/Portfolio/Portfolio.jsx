@@ -1,6 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { v4 as uuidv4 } from 'uuid';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 import arrowRight from '../../assets/images/arrowRight.png';
 import Data from './PortfolioData';
 
@@ -28,8 +31,14 @@ const Portfolio = () => {
                   <p className="project-border-1 p-2">{item.tech[3]}</p>
                 </li>
                 <li className="flex gap-x-10 items-center mt-10">
-                  <a href={item.liveDemo} className="bg-[#ff6b00] p-2 text-[#fff] b-radius btn-hover" target="_blank" rel="noreferrer">Live Demo</a>
-                  <a href={item.sourceCode} className="bg-[#ff6b00] p-2 text-[#fff] b-radius btn-hover" target="_blank" rel="noreferrer">Source Code</a>
+                  <div className="flex gap-x-2 items-center bg-[#ff6b00] p-2 text-[#fff] btn-hover b-radius">
+                    <FontAwesomeIcon icon={faGlobe} alt="Live link logo" />
+                    <a href={item.liveDemo} target="_blank" rel="noreferrer">Live Demo</a>
+                  </div>
+                  <div className="flex gap-x-2 items-center bg-[#ff6b00] p-2 text-[#fff] btn-hover b-radius">
+                    <FontAwesomeIcon icon={faGithub} alt="Github logo" />
+                    <a href={item.sourceCode} target="_blank" rel="noreferrer">Source Code</a>
+                  </div>
                 </li>
               </li>
             </ul>
