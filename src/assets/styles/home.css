@@ -1,0 +1,204 @@
+@media screen and (max-width: 1280px) {
+  .portfolio {
+    width: 100%;
+  }
+
+  .cards {
+    /* border: 4px solid red; */
+    min-width: 100%;
+  }
+
+  .intro-p {
+    width: 90%;
+  }
+
+  .btn-links {
+    display: flex;
+  }
+
+  .img-decorator,
+  .img-decorator-1 {
+    opacity: 0.1;
+  }
+
+  .img-decorator {
+    right: -40px;
+  }
+
+  .myy {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .img-port {
+    width: 100%;
+    height: 100%;
+  }
+
+  .tools-techs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+  }
+
+  .tech {
+    display: flex;
+  }
+
+  .hr-line {
+    width: 200px;
+  }
+
+  .social {
+    width: 50%;
+    margin: auto;
+  }
+
+  .get-in-touch {
+    width: 90%;
+    margin: auto;
+  }
+
+  .btn-send-message {
+    width: 50%;
+    margin: auto;
+  }
+
+  .footer {
+    font-size: 14px;
+    width: 60%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .portfolio {
+    width: 100%;
+  }
+
+  .cards {
+    /* border: 4px solid red; */
+    min-width: 100%;
+  }
+
+  .intro-p {
+    width: 90%;
+  }
+
+  .btn-links {
+    display: flex;
+  }
+
+  .img-decorator,
+  .img-decorator-1 {
+    opacity: 0.1;
+  }
+
+  .img-decorator {
+    left: -1px;
+  }
+
+  .myy {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .img-port {
+    width: 100%;
+    height: 100%;
+  }
+
+  .tools-techs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+  }
+
+  .tech {
+    display: flex;
+  }
+
+  .hr-line {
+    width: 100px;
+  }
+
+  .social {
+    width: 50%;
+    margin: auto;
+  }
+
+  .get-in-touch {
+    width: 70%;
+    margin: auto;
+  }
+
+  .btn-send-message {
+    width: 50%;
+    margin: auto;
+  }
+
+  .footer {
+    font-size: 14px;
+    width: 60%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .portfolio {
+    width: 100%;
+  }
+
+  .cards {
+    /* border: 4px solid red; */
+    min-width: 100%;
+  }
+
+  .intro-p {
+    width: 90%;
+  }
+
+  .img-decorator,
+  .img-decorator-1 {
+    opacity: 0.1;
+  }
+
+  .img-decorator {
+    left: -1px;
+  }
+
+  .btn-links {
+    display: block;
+  }
+
+  .myy {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .img-port {
+    width: 100%;
+    height: 100%;
+  }
+
+  .tech {
+    display: grid;
+    grid-template-columns: 2fr;
+  }
+
+  .hr-line {
+    display: none;
+  }
+
+  .social,
+  .get-in-touch,
+  .btn-send-message {
+    width: 90%;
+    margin: auto;
+  }
+
+  .footer {
+    font-size: 14px;
+    width: 100%;
+  }
+}

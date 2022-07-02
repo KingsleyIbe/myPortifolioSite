@@ -5,7 +5,7 @@
 
 @import './assets/styles/general.scss';
 @import './assets/styles/mobileHeader.css';
-@import './assets/styles/portfolio.css';
+@import './assets/styles/home.css';
 
 body {
   margin: 0;

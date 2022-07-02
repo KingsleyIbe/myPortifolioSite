@@ -30,7 +30,7 @@ const Portfolio = () => {
                   <p className="project-border-1 p-2 myy">{item.tech[2]}</p>
                   <p className="project-border-1 p-2 myy">{item.tech[3]}</p>
                 </li>
-                <li className="lg:flex gap-x-10 items-center mt-10">
+                <li className="lg:flex gap-x-10 items-center mt-10 btn-links">
                   <div className="flex gap-x-2 items-center bg-[#ff6b00] p-2 text-[#fff] btn-hover b-radius">
                     <FontAwesomeIcon icon={faGlobe} alt="Live link logo" />
                     <a href={item.liveDemo} target="_blank" rel="noreferrer">Live Demo</a>

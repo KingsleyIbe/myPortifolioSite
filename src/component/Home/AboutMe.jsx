@@ -27,7 +27,7 @@ const AboutMe = () => (
       </div>
       <div>
         <h3 className="text-[#ff6b00] mt-10 text-[25px]">Below are my tech stacks:</h3>
-        <div className="lg:flex lg:gap-x-[200px] items-center text-[#fff] my-10">
+        <div className="lg:flex lg:gap-x-[200px] tools-techs items-center text-[#fff] my-10">
           <div className="md:my-5 sm:my-5">
             <div className="flex gap-x-2 items-center">
               <img src={rectangle55} alt="Rectangle design" />
