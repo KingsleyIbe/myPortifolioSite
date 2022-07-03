@@ -3,7 +3,7 @@
 
 > This project is to showcase my portfolio to hiring managers and potential clients.
 
-![screenshot](/images/project-desktop-v.jpeg)
+![screenshot](./src/assets/images/project-screenshot.jpeg)
 
 In this project you will find links that would help you learn about me, my recent works,
 technologies I used in delivering high performing web application and the contact section for a DM.
