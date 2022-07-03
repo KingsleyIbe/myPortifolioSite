@@ -10,7 +10,7 @@ const Contact = () => (
           so if you&#39;d like to chat, please get in touch.
         </h1>
       </div>
-      <form action="https://formspree.io/f/mzbyqobv" method="post" className="grid mb-[200px]">
+      <form action="https://formspree.io/f/mzbyqobv" method="POST" className="grid mb-[200px]">
         <input type="text" name="name" placeholder="Full name" maxLength="30" required className="my-10 lg:w-[600px] h-[50px] p-5" />
         <input type="email" name="Email" placeholder="Email address" required className="my-10 lg:w-[600px] h-[50px] p-5" />
         <textarea placeholder="Enter text here" name="Message" maxLength="500" required className="my-10 lg:w-[600px] h-[200px] p-5" />
