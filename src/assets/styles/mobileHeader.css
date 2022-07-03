@@ -1,0 +1,33 @@
+@media screen and (min-width: 769px) and (max-width: 1px) {
+  .header {
+    width: 100%;
+  }
+
+  .nav-elems {
+    gap: 300px;
+  }
+
+  .ul-elems {
+    position: relative;
+    left: 0;
+    gap: 20px;
+  }
+
+  .btn-get-resume {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mobile-header {
+    width: 100%;
+  }
+
+  .ul-container {
+    width: 60%;
+    display: block;
+    position: absolute;
+    top: 85px;
+    z-index: 1000;
+  }
+}

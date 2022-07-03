@@ -1,0 +1,16 @@
+/* stylelint-disable scss/at-rule-no-unknown */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './assets/styles/general.scss';
+@import './assets/styles/mobileHeader.css';
+@import './assets/styles/home.css';
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1c1a19;
+  color: #fff;
+  overflow-x: hidden;
+}
