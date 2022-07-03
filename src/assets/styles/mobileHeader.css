@@ -28,5 +28,6 @@
     display: block;
     position: absolute;
     top: 85px;
+    z-index: 1000;
   }
 }
