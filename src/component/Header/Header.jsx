@@ -23,7 +23,7 @@ const Header = () => {
     <div className="header fixed z-50 bg-[#3c3a39] min-w-[100%] p-10">
       <header className="">
         <nav className="flex gap-x-10 items-center text-[25px] font-bold text-[#fff] nav-elems">
-          <span>
+          <span className="fa-envelope">
             <NavLink to="/contact" className="logo" onClick={mobileMenu}>Let&#39;s connect</NavLink>
           </span>
           <ul className="flex lg:gap-x-10 items-center lg:absolute right-0 mr-10 ul-elems">
