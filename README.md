@@ -1,70 +1,61 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# PERSONAL PORTFOLIO
 
-## Available Scripts
+> This project is to showcase my portfolio to hiring managers and potential clients.
 
-In the project directory, you can run:
+![screenshot](./src/assets/images/project-screenshot.jpeg)
 
-### `npm start`
+In this project you will find links that would help you learn about me, my recent works,
+technologies I used in delivering high performing web application and the contact section for a DM.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+I would love to socialize with you also, so I have included my most social media handles.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Built With
 
-### `npm test`
+- HTML
+- CSS
+- Javascript
+- Git and GitHub
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Live Demo
 
-### `npm run build`
+[Live Demo Link](https://kingsleyibe.net)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To get a local copy up and running follow these simple example steps.
 
-### `npm run eject`
+### Prerequisites
+- You should have a basic knowledge of HTML
+- You should have a basic knowledge of CSS
+- You should have a basic knowledge of JavaScript
+- Also, a basic knowledge of git and github
+- A code editor: I used VScode for this project but you can use any code editor of your choice
+### Setup
+- follow steps on this link to set up VScode code editor: [setup vscode](https://www.freecodecamp.org/news/how-to-set-up-vs-code-for-web-development/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Install
+[download](https://code.visualstudio.com/download) VScode.
+[Watch this video](https://www.youtube.com/watch?v=MlIzFUI1QGA) on how to install VScode on windows
+## Author
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- GitHub: [@githubhandle](https://github.com/kingsleyibe)
+- Twitter: [@twitterhandle](https://twitter.com/ibekingsley2)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kingsley-ibe-5669a5134)
+- Instagram: [@Instagram](https://instagram.com/ibekingsleychibueze)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🤝 Contributing
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Contributions, issues, and feature requests are welcome!
 
-## Learn More
+Feel free to check the [issues page](../../issues/).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Show your support
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Give a ⭐️ if you like this project!
 
-### Code Splitting
+## 📝 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](./MIT.md) licensed.
+# myPortifolioSite
