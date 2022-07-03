@@ -7,12 +7,12 @@ import rectangle57 from '../../assets/images/Rectangle-57.png';
 import gif from '../../assets/images/person-juggling-joypixel.gif';
 
 const About = () => (
-  <div className="p-10 bg-[#1c1a19] ml-[200px]">
+  <div className="p-10 bg-[#1c1a19] lg:ml-[200px] about">
     <section className="relative">
       <div className="">
         <h1 className="text-[51px] mb-10 text-[#ff6b00]">About Me</h1>
       </div>
-      <div className="text-[#fff] w-[50%] text-[20px]">
+      <div className="text-[#fff] lg:w-[50%] text-[20px]">
         <p className="my-10">
           Hello I’m a software developer! I can help you build a product,
           feature or website. Look through some of my work and experience!
@@ -42,11 +42,11 @@ const About = () => (
         <img src={gif} alt="Juggling Gif" className="w-[100px] mt-10" />
       </div>
       <div className="absolute right-0 top-[100px]">
-        <img src={decorator} alt="Decorator design" />
+        <img src={decorator} alt="Decorator design" className="img-decorator-1" />
       </div>
       <div>
         <h3 className="text-[#ff6b00] mt-10 text-[25px]">Below are my tech stacks:</h3>
-        <div className="flex gap-x-[200px] items-center text-[#fff] my-10">
+        <div className="lg:flex lg:gap-x-[200px] items-center text-[#fff] my-10 tools-techs">
           <div>
             <div className="flex gap-x-2 items-center">
               <img src={rectangle55} alt="Rectangle design" />
