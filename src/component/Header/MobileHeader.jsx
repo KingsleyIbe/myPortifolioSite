@@ -24,7 +24,7 @@ const MobileHeader = () => {
       <header>
         <nav>
           <ul className="flex items-center ul-items z-50 fixed bg-[#111114] p-5 w-[100%] text-[30px]">
-            <li>
+            <li className="fa-envelope">
               <NavLink to="/contact" className="logo">Let&#39;s connect</NavLink>
             </li>
             <li><button type="button" onClick={openMenu}><FontAwesomeIcon icon={faBars} className="menuBar absolute right-0 mr-10 bottom-5" /></button></li>
