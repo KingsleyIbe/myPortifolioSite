@@ -35,8 +35,8 @@ const Data = [
     screenShot: conferenceApp,
     title: 'Online Conference Page',
     description: `${'Online conference application is a website that hosts conferences and other events. '
-    + 'Participants will be able to register for events, join online, invite friends, view program details, '}${
-      +'access speakers bio information, contact event planners, etc. '}`,
+    + 'Participants will be able to register for events, join online, invite friends, view program details, '
+    + 'access speakers bio information, contact event planners, etc. '}`,
     tech: ['CSS', 'JavaScript', 'HTML', 'SCSS'],
     alt: 'Project screenshot',
     liveDemo: 'https://kingsleyibe.github.io/microverse-capstone-1/',

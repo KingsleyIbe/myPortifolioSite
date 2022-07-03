@@ -12,10 +12,10 @@ const Portfolio = () => {
   return (
     <div className="mx-10 portfolio">
       <section>
-        <div className="items-center w-[80%] m-auto">
+        <div className="items-center w-[100%] m-auto">
           <h1 className="text-[51px] mb-10 text-[#ff6b00]">My Recent Projects</h1>
         </div>
-        <div className="gap-x-5 items-center text-[#fff] text-[30px] my-10 lg:w-[80%] m-auto">
+        <div className="items-center text-[#fff] text-[30px] project-container my-10 w-[100%] m-auto">
           {data.map((item) => (
             <ul key={uuidv4()} className="my-10 cards lg:flex gap-x-5 project-border p-5 bg-[#1c1a19]">
               <li className="">
