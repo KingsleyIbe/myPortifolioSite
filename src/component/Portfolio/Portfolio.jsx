@@ -10,7 +10,7 @@ import Data from './PortfolioData';
 const Portfolio = () => {
   const data = Data;
   return (
-    <div className="mx-10 portfolio">
+    <div className="mx-10 portfolio relative top-[200px]">
       <section>
         <div className="items-center w-[100%] m-auto">
           <h1 className="mb-10 text-[#ff6b00]">My Recent Projects</h1>
@@ -19,7 +19,7 @@ const Portfolio = () => {
           {data.map((item) => (
             <ul key={uuidv4()} className="my-10 cards lg:flex gap-x-5 project-border p-5 bg-[#1c1a19]">
               <li className="">
-                <img src={item.screenShot} alt={item.alt} className="lg:min-w-[600px] lg:min-h-[100%] img-port" />
+                <img src={item.screenShot} alt={item.alt} className="lg:min-w-[600px] lg:min-h-[80%] img-port" />
               </li>
               <li>
                 <li><h3 className="p-5 text-[#ff6b00] font-bold">{item.title}</h3></li>

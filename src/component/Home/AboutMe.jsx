@@ -7,7 +7,7 @@ import rectangle57 from '../../assets/images/Rectangle-57.png';
 import gif from '../../assets/images/person-juggling-joypixel.gif';
 
 const AboutMe = () => (
-  <div className="p-10 bg-[#1c1a19] lg:ml-[200px]">
+  <div className="p-10 bg-[#1c1a19] lg:ml-[100px]">
     <section className="relative">
       <div className="">
         <h1 className="mb-10 text-[#ff6b00]">About Me</h1>
@@ -27,7 +27,7 @@ const AboutMe = () => (
       </div>
       <div>
         <h3 className="text-[#ff6b00] mt-10">Below are my tech stacks:</h3>
-        <div className="lg:flex lg:gap-x-[200px] tools-techs items-center text-[#fff] my-10">
+        <div className="lg:flex lg:gap-x-[50px] tools-techs items-center text-[#fff] my-10">
           <div className="md:my-5 sm:my-5">
             <div className="flex gap-x-2 items-center">
               <img src={rectangle55} alt="Rectangle design" />
