@@ -10,9 +10,9 @@ const AboutMe = () => (
   <div className="p-10 bg-[#1c1a19] lg:ml-[200px]">
     <section className="relative">
       <div className="">
-        <h1 className="text-[51px] mb-10 text-[#ff6b00]">About Me</h1>
+        <h1 className="mb-10 text-[#ff6b00]">About Me</h1>
       </div>
-      <div className="text-[#fff] lg:w-[50%] text-[20px]">
+      <div className="text-[#fff] lg:w-[50%]">
         <p className="my-10">
           Hello I’m a software developer! I can help you build a product,
           feature or website. Look through some of my work and experience!
@@ -26,14 +26,14 @@ const AboutMe = () => (
         <img src={decorator} alt="Decorator design" className="img-decorator-1" />
       </div>
       <div>
-        <h3 className="text-[#ff6b00] mt-10 text-[25px]">Below are my tech stacks:</h3>
+        <h3 className="text-[#ff6b00] mt-10">Below are my tech stacks:</h3>
         <div className="lg:flex lg:gap-x-[200px] tools-techs items-center text-[#fff] my-10">
           <div className="md:my-5 sm:my-5">
             <div className="flex gap-x-2 items-center">
               <img src={rectangle55} alt="Rectangle design" />
-              <h3 className="text-[25px]">Front-End Development</h3>
+              <h3 className="">Front-End Development</h3>
             </div>
-            <ul className="ml-[30px] text-[20px]">
+            <ul className="ml-[30px]">
               <li className="my-1">HTML, CSS &amp; SASS</li>
               <li className="my-1">JavaScript</li>
               <li className="my-1">TypeScript</li>
@@ -44,9 +44,9 @@ const AboutMe = () => (
           <div className="md:my-5 sm:my-5">
             <div className="flex gap-x-2 items-center">
               <img src={rectangle56} alt="Rectangle design" />
-              <h3 className="text-[25px]">Back-End Development</h3>
+              <h3 className="">Back-End Development</h3>
             </div>
-            <ul className="ml-[30px] text-[20px]">
+            <ul className="ml-[30px]">
               <li className="my-1">Ruby on rails</li>
               <li className="my-1">Postgres</li>
               <li className="my-1">NodeJs</li>
@@ -59,7 +59,7 @@ const AboutMe = () => (
               <img src={rectangle57} alt="Rectangle design" />
               <h3 className="text-[25px]">Tools</h3>
             </div>
-            <ul className="ml-[30px] text-[20px]">
+            <ul className="ml-[30px]">
               <li className="my-1">Responsive Web Design</li>
               <li className="my-1">Git &amp; GitHub</li>
               <li className="my-1">Webpack</li>
@@ -72,7 +72,7 @@ const AboutMe = () => (
               <img src={rectangle55} alt="Rectangle design" />
               <h3 className="text-[25px]">Professional Skills</h3>
             </div>
-            <ul className="ml-[30px] text-[20px]">
+            <ul className="ml-[30px]">
               <li className="my-1">Remote pair-programming</li>
               <li className="my-1">Project management</li>
               <li className="my-1">Communication</li>

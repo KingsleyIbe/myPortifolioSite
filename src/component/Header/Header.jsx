@@ -6,7 +6,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const Header = () => {
   const navLinksStyles = ({ isActive }) => ({
-    borderBottom: isActive ? '4px solid #ff6b00' : 'none',
+    borderBottom: isActive ? '2px solid #ff6b00' : 'none',
     color: isActive ? '#ff6b00' : '#fff',
   });
 
@@ -22,7 +22,7 @@ const Header = () => {
   return (
     <div className="header fixed z-50 bg-[#3c3a39] min-w-[100%] p-10">
       <header className="">
-        <nav className="flex gap-x-10 items-center text-[25px] font-bold text-[#fff] nav-elems">
+        <nav className="flex gap-x-10 items-center font-bold text-[#fff] nav-elems">
           <span className="fa-envelope">
             <NavLink to="/contact" className="logo" onClick={mobileMenu}>Let&#39;s connect</NavLink>
           </span>

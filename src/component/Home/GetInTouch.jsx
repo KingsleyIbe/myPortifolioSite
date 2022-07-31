@@ -7,7 +7,7 @@ const GetInTouch = () => (
   <section className="my-[100px] mx-5">
     <div className="flex gap-x-10 items-center lg:w-[60%] lg:m-auto text-[#ff6b00] get-in-touch">
       <img src={line} alt="Horizontal Line" className="hr-line" />
-      <h1 className="text-[40px]">Get in touch</h1>
+      <h1 className="">Get in touch</h1>
       <img src={line} alt="Horizontal Line" className="hr-line" />
     </div>
 

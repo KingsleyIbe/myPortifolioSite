@@ -13,16 +13,16 @@ const Portfolio = () => {
     <div className="mx-10 portfolio">
       <section>
         <div className="items-center w-[100%] m-auto">
-          <h1 className="text-[51px] mb-10 text-[#ff6b00]">My Recent Projects</h1>
+          <h1 className="mb-10 text-[#ff6b00]">My Recent Projects</h1>
         </div>
-        <div className="items-center text-[#fff] text-[30px] project-container my-10 w-[100%] m-auto">
+        <div className="items-center text-[#fff] project-container my-10 w-[100%] m-auto">
           {data.map((item) => (
             <ul key={uuidv4()} className="my-10 cards lg:flex gap-x-5 project-border p-5 bg-[#1c1a19]">
               <li className="">
                 <img src={item.screenShot} alt={item.alt} className="lg:min-w-[600px] lg:min-h-[100%] img-port" />
               </li>
               <li>
-                <li><h3 className="p-5 text-[#ff6b00] text-[40px] font-bold">{item.title}</h3></li>
+                <li><h3 className="p-5 text-[#ff6b00] font-bold">{item.title}</h3></li>
                 <li><p className="max-w-[100%] my-5 project-border-1 p-5">{item.description}</p></li>
                 <li className="lg:flex gap-x-5 items-center tech">
                   <p className="project-border-1 p-2 myy">{item.tech[0]}</p>
