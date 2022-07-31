@@ -15,7 +15,7 @@ const Portfolio = () => {
         <div className="items-center w-[100%] m-auto">
           <h1 className="mb-10 text-[#ff6b00]">My Recent Projects</h1>
         </div>
-        <div className="items-center text-[#fff] project-container my-10 w-[100%] m-auto">
+        <div className="items-center text-[#fff] project-container my-10 lg:w-[100%]">
           {data.map((item) => (
             <ul key={uuidv4()} className="my-10 cards lg:flex gap-x-5 project-border p-5 bg-[#1c1a19]">
               <li className="">
@@ -31,11 +31,11 @@ const Portfolio = () => {
                   <p className="project-border-1 p-2 myy">{item.tech[3]}</p>
                 </li>
                 <li className="lg:flex gap-x-10 items-center mt-10 btn-links">
-                  <div className="flex gap-x-2 items-center bg-[#ff6b00] p-2 text-[#fff] btn-hover b-radius">
+                  <div className="flex gap-x-2 items-center bg-[#ff6b00] myp p-2 text-[#fff] btn-hover b-radius">
                     <FontAwesomeIcon icon={faGlobe} alt="Live link logo" />
                     <a href={item.liveDemo} target="_blank" rel="noreferrer">Live Demo</a>
                   </div>
-                  <div className="flex gap-x-2 items-center bg-[#ff6b00] myy p-2 text-[#fff] btn-hover b-radius">
+                  <div className="flex gap-x-2 items-center bg-[#ff6b00] myp p-2 text-[#fff] btn-hover b-radius">
                     <FontAwesomeIcon icon={faGithub} alt="Github logo" />
                     <a href={item.sourceCode} target="_blank" rel="noreferrer">Source Code</a>
                   </div>
