@@ -2,13 +2,13 @@ import React from 'react';
 // import Footer from '../Common/Footer';
 
 const Contact = () => (
-  <div className="relative lg:top-[300px] lg:ml-[300px] p-10 contact z-0">
+  <div className="relative lg:top-[200px] left-[150px] p-10 contact z-0">
     <div className="lg:flex gap-x-10">
       <div>
-        <h1 className="lg:text-[50px] lg:w-[600px] my-10">
+        <h3 className="lg:w-[300px] my-10 contact-text">
           I&#39;m always interested in hearing about new projects,
           so if you&#39;d like to chat, please get in touch.
-        </h1>
+        </h3>
       </div>
       <form action="https://formspree.io/f/mzbyqobv" method="POST" className="grid mb-[200px]">
         <input type="text" name="name" placeholder="Full name" maxLength="30" required className="my-10 lg:w-[600px] h-[50px] p-5" />
