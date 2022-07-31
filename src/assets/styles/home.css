@@ -18,7 +18,7 @@
   }
 
   .btn-links {
-    display: flex;
+    display: flex !important;
   }
 
   .img-decorator,
@@ -47,38 +47,39 @@
   }
 
   .tech {
-    display: flex;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
   }
 
   .hr-line {
     width: 200px;
   }
 
-  .social {
-    width: 50%;
-    margin: auto;
-  }
+  /* .social {
+    left: 0;
+  } */
 
   .get-in-touch {
-    width: 90%;
-    margin: auto;
+    left: 300px !important;
   }
 
-  .btn-send-message {
-    width: 50%;
-    margin: auto;
-  }
-
-  .footer {
-    font-size: 14px;
-    width: 60%;
-    margin: auto;
-  }
+  /* .footer {
+    left: 20px;
+  } */
 }
 
 @media screen and (max-width: 768px) {
+  h1 {
+    line-height: 36px;
+  }
+
   .portfolio {
     width: 100%;
+  }
+
+  .about-me-home {
+    width: 100%;
+    padding: 0;
   }
 
   .contact {
@@ -111,6 +112,13 @@
   .myy {
     margin-bottom: 10px;
     margin-top: 10px;
+    width: 100px;
+    text-align: center;
+  }
+
+  .myp {
+    width: 130px;
+    text-align: center;
   }
 
   .img-port {
@@ -125,7 +133,8 @@
   }
 
   .tech {
-    display: flex;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
   }
 
   .hr-line {
@@ -133,8 +142,7 @@
   }
 
   .social {
-    width: 50%;
-    margin: auto;
+    left: 0;
   }
 
   .get-in-touch {
@@ -142,15 +150,34 @@
     margin: auto;
   }
 
-  .btn-send-message {
-    width: 50%;
-    margin: auto;
+  .get-in-touch-text {
+    font-size: 16px;
+    border: 1px solid red;
   }
 
-  .footer {
-    font-size: 14px;
-    width: 60%;
-    margin: auto;
+  .btn-send-message,
+  .social,
+  .get-in-touch,
+  .footer-cont {
+    left: 40px !important;
+  }
+
+  .action-btn {
+    gap: 10px !important;
+    width: 100%;
+  }
+
+  .action-btn-2 {
+    width: 300px;
+  }
+
+  .action-btn-1 {
+    width: 300px;
+  }
+
+  .project-container {
+    width: 100%;
+    margin: 0;
   }
 }
 
@@ -193,7 +220,7 @@
 
   .tech {
     display: grid;
-    grid-template-columns: 2fr;
+    grid-template-columns: 2fr 2fr;
   }
 
   .hr-line {
@@ -203,8 +230,7 @@
   .social,
   .get-in-touch,
   .btn-send-message {
-    width: 90%;
-    margin: auto;
+    left: 0;
   }
 
   .footer {

@@ -7,7 +7,7 @@ import rectangle57 from '../../assets/images/Rectangle-57.png';
 import gif from '../../assets/images/person-juggling-joypixel.gif';
 
 const AboutMe = () => (
-  <div className="p-10 bg-[#1c1a19] lg:ml-[100px]">
+  <div className="about-me-home p-10 bg-[#1c1a19] lg:ml-[100px]">
     <section className="relative">
       <div className="">
         <h1 className="mb-10 text-[#ff6b00]">About Me</h1>
@@ -82,9 +82,9 @@ const AboutMe = () => (
           </div>
         </div>
       </div>
-      <div className="flex gap-x-10 items-center text-[#fff] my-5">
-        <button type="button" className="p-5 bg-[#ff6b00] b-radius btn-hover"><Link to="/resume">Get My Resume</Link></button>
-        <Link to="/about" className="p-5 bg-[#ff6b00] b-radius btn-hover">Read More</Link>
+      <div className="flex gap-x-10 items-center action-btn text-[#fff] my-5">
+        <button type="button" className="p-5 bg-[#ff6b00] b-radius btn-hover action-btn-1"><Link to="/resume">Get My Resume</Link></button>
+        <Link to="/about" className="p-5 bg-[#ff6b00] b-radius btn-hover action-btn-2">Read More</Link>
       </div>
     </section>
   </div>
