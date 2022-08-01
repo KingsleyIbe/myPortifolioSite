@@ -41,11 +41,11 @@ li {
   line-height: 26px;
 }
 
-button {
+.button-1 {
   transition: transform 250ms;
 }
 
-button:hover {
+.button-1:hover {
   transform: translateY(-10px);
 }
 

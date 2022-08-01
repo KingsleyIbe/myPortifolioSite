@@ -83,7 +83,7 @@ const AboutMe = () => (
         </div>
       </div>
       <div className="flex gap-x-10 items-center action-btn text-[#fff] my-5">
-        <button type="button" className="p-5 bg-[#ff6b00] b-radius btn-hover action-btn-1"><Link to="/resume">Get My Resume</Link></button>
+        <button type="button" className="button-1 p-5 bg-[#ff6b00] b-radius btn-hover action-btn-1"><Link to="/resume">Get My Resume</Link></button>
         <Link to="/about" className="p-5 bg-[#ff6b00] b-radius btn-hover action-btn-2">Read More</Link>
       </div>
     </section>

@@ -14,7 +14,7 @@ const Contact = () => (
         <input type="text" name="name" placeholder="Full name" maxLength="30" required className="my-10 lg:w-[600px] h-[50px] p-5" />
         <input type="email" name="Email" placeholder="Email address" required className="my-10 lg:w-[600px] h-[50px] p-5" />
         <textarea placeholder="Enter text here" name="Message" maxLength="500" required className="my-10 lg:w-[600px] h-[200px] p-5" />
-        <button type="submit" className="my-10 text-[20px] bg-[#ff6b00] project-border-1 p-5 lg:w-[200px] m-auto">Get in touch</button>
+        <button type="submit" className="button-1 my-10 text-[20px] bg-[#ff6b00] project-border-1 p-5 lg:w-[200px] m-auto">Get in touch</button>
       </form>
     </div>
   </div>
