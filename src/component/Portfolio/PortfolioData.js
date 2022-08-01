@@ -3,7 +3,7 @@ import leadsTracker from '../../assets/images/LeadsTracker.png';
 import conferenceApp from '../../assets/images/conferenceBookingApp.jpeg';
 import nasaMediaLibrary from '../../assets/images/nasaMediaLibrary.jpeg';
 import languageTranslator from '../../assets/images/languageTranslator.jpeg';
-import budgetApp from '../../assets/images/budgetApp.png';
+import budgetApp from '../../assets/images/budgetingApp.PNG';
 
 const Data = [
   {
