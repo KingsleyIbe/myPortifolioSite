@@ -36,9 +36,9 @@ const MobileHeader = () => {
           <li className="mb-5"><NavLink to="/" className="hover:opacity-[0.5]" style={navLinksStyles} onClick={openMenu}>Home</NavLink></li>
           <li className="my-5"><NavLink to="/portfolio" className="hover:opacity-[0.5] my-10" style={navLinksStyles} onClick={openMenu}>Portfolio</NavLink></li>
           <li className="my-5"><NavLink to="/about" className="hover:opacity-[0.5]" style={navLinksStyles} onClick={openMenu}>About</NavLink></li>
-          <li className="my-5"><NavLink to="/contact" className="hover:opacity-[0.5]" style={navLinksStyles}>Contact</NavLink></li>
+          <li className="my-5"><NavLink to="/contact" className="hover:opacity-[0.5]" style={navLinksStyles} onClick={openMenu}>Contact</NavLink></li>
           <li className="my-5"><a href="mailto:ibekingsley66@gmail.com" target="_blank" rel="noreferrer" onClick={openMenu}><FontAwesomeIcon icon={faEnvelope} className="text-[30px]" /></a></li>
-          <li className="b-border p-2 btn-hover"><button type="button"><NavLink to="/resume" onClick={openMenu}>Get My Resume</NavLink></button></li>
+          <li className="b-border p-2 btn-hover text-center"><button type="button"><NavLink to="/resume" onClick={openMenu}>Get My Resume</NavLink></button></li>
         </ul>
       ) : ''}
     </div>

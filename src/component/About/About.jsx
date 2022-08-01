@@ -101,7 +101,7 @@ const About = () => (
           </div>
         </div>
       </div>
-      <div className="flex gap-x-10 items-center text-[#fff] my-5">
+      <div className="flex gap-x-10 items-center text-[#fff] about-btn my-5">
         <button type="button" className="p-5 bg-[#ff6b00] b-radius btn-hover"><Link to="/resume">Get My Resume</Link></button>
         <Link to="/contact" className="p-5 bg-[#ff6b00] b-radius btn-hover">Get In Touch</Link>
       </div>
