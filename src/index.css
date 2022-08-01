@@ -41,6 +41,18 @@ li {
   line-height: 26px;
 }
 
+button {
+  transition: transform 250ms;
+}
+
+button:hover {
+  transform: translateY(-10px);
+}
+
 .contact-text {
   line-height: 36px;
+}
+
+.transition-cont {
+  transition: transform 250ms cubic-bezier(0.1, 0.2, 0.3, 0.4);
 }
