@@ -24,10 +24,32 @@
   }
 
   .ul-container {
-    width: 60%;
+    width: 100%;
     display: block;
     position: absolute;
-    top: 85px;
+    top: 65px;
     z-index: 1000;
+    min-height: 100vh;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .logo {
+    font-size: 16px;
+  }
+
+  .ul-items {
+    margin-right: 0 !important;
+    max-width: 100%;
+  }
+
+  .menuBar {
+    position: relative;
+    right: 0;
+    left: 240px;
+  }
+
+  .footer {
+    display: none;
   }
 }

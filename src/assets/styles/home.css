@@ -85,6 +85,7 @@
   .contact {
     top: 100px;
     font-size: 20px;
+    left: 40px !important;
   }
 
   .cards {
@@ -236,5 +237,37 @@
   .footer {
     font-size: 14px;
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .contact {
+    top: 100px;
+    font-size: 16px;
+    left: 10px !important;
+  }
+
+  .about {
+    left: 0 !important;
+  }
+
+  .about h1 {
+    width: 100%;
+    font-size: 32px;
+  }
+
+  .about-btn {
+    gap: 10px !important;
+  }
+
+  .social {
+    font-size: 8px !important;
+    left: 0 !important;
+    width: 100px;
+  }
+
+  .btn-send-message a {
+    font-size: 16px !important;
+    left: 100px !important;
   }
 }
