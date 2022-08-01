@@ -6,7 +6,7 @@ const ResumePDF = () => (
     <button
       onClick={() => window.open('https://drive.google.com/file/d/1YTvGYhXIZWw906Dz8dMCATxpHgid0OW2/view?usp=sharing', '_blank')}
       type="submit"
-      className="mt-5 ml-2 rounded px-4 py-3 bg-[#ff6b00] text-[#fff] font-medium btn-hover"
+      className="mt-5 ml-2 button-1 rounded px-4 py-3 bg-[#ff6b00] text-[#fff] font-medium btn-hover"
     >
       Download Resume
     </button>
