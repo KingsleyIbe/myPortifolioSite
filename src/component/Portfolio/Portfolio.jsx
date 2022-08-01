@@ -19,9 +19,9 @@ const Portfolio = () => {
           {data.map((item) => (
             <ul key={uuidv4()} className="my-10 cards lg:flex gap-x-5 project-border p-5 bg-[#1c1a19]">
               <li className="">
-                <img src={item.screenShot} alt={item.alt} className="lg:min-w-[600px] lg:min-h-[80%] img-port" />
+                <img src={item.screenShot} alt={item.alt} className="lg:min-w-[400px] lg:min-h-[80%] mt-5 img-port" />
               </li>
-              <li>
+              <li className="">
                 <li><h3 className="p-5 text-[#ff6b00] font-bold">{item.title}</h3></li>
                 <li><p className="max-w-[100%] my-5 project-border-1 p-5">{item.description}</p></li>
                 <li className="lg:flex gap-x-5 items-center tech">
