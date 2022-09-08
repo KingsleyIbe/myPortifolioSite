@@ -23,7 +23,7 @@ const About = () => (
         <ul className="list-disc">
           <li> I’m interested in developing software applications to solve real-world problems.</li>
           <li> I’m constantly learning and improving on new software tools &amp; technologies.</li>
-          <li> Currently searching for a Software Engineer role.</li>
+          <li> Currently open to a Software Engineer role.</li>
           <li>
             {' '}
             Contributor
@@ -33,7 +33,7 @@ const About = () => (
           <li> At leisure, I love to take photos of nature and play chess.</li>
           <li>
             {' '}
-            I also blog about my favorite topics. Check it out
+            I also blog about my favorite topics. Check them out
             {' '}
             <a href="https://medium.com/@ibekingsley" target="_blank" className="text-[#ff6b00] underline" rel="noreferrer">here.</a>
           </li>

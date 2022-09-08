@@ -24,14 +24,14 @@ const Header = () => {
       <header className="">
         <nav className="flex gap-x-10 items-center font-bold text-[#fff] nav-elems">
           <span className="fa-envelope">
-            <NavLink to="/contact" className="logo" onClick={mobileMenu}>Kingsley Ibe</NavLink>
+            <NavLink to="/" className="logo hover:opacity-[0.5]" onClick={mobileMenu}>Kingsley Ibe</NavLink>
           </span>
           <ul className="flex lg:gap-x-10 items-center lg:absolute right-0 mr-10 ul-elems">
             <li><NavLink to="/" className="hover:opacity-[0.5]" style={navLinksStyles}>Home</NavLink></li>
             <li><NavLink to="/portfolio" className="hover:opacity-[0.5]" style={navLinksStyles}>Portfolio</NavLink></li>
             <li><NavLink to="/about" className="hover:opacity-[0.5]" style={navLinksStyles}>About</NavLink></li>
             <li><NavLink to="/contact" className="hover:opacity-[0.5]" style={navLinksStyles}>Contact</NavLink></li>
-            <li><a href="mailto:ibekingsley66@gmail.com" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faEnvelope} className="text-[30px]" /></a></li>
+            <li><a href="mailto:ibekingsley66@gmail.com" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faEnvelope} className="text-[30px] hover:opacity-[0.5]" /></a></li>
             <li className="lg:ml-[100px] b-border p-2 btn-hover btn-get-resume button-1"><button type="button"><NavLink to="/resume">Get My Resume</NavLink></button></li>
           </ul>
         </nav>

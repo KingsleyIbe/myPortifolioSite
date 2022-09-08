@@ -45,7 +45,7 @@ const SocialMedia = () => {
           <ul key={uuidv4()}>
             <li>
               <a href={item.href} target={item.target}>
-                <FontAwesomeIcon icon={item.icon} alt={item.alt} className="fa-envelope btn-hover" />
+                <FontAwesomeIcon icon={item.icon} alt={item.alt} className="fa-envelope hover:text-[#ff6b00]" />
               </a>
 
             </li>
