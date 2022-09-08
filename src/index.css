@@ -46,7 +46,7 @@ li {
 }
 
 .button-1:hover {
-  transform: translateY(-10px);
+  transform: translateY(0);
 }
 
 .contact-text {

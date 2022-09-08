@@ -47,8 +47,8 @@ const Portfolio = () => {
             ))}
           </div>
         </AnimationOnScroll>
-        <Link to="/portfolio" className="flex gap-x-5 items-center btn-hover text-[#fff] bg-[#ff6b00] m-auto w-[210px] text-center p-5 project-border-1 text-[20px]">
-          <p>More Projects</p>
+        <Link to="/contact" className="flex gap-x-5 items-center btn-hover text-[#fff] bg-[#ff6b00] m-auto w-[210px] text-center p-5 project-border-1 text-[20px]">
+          <p>Get In Touch</p>
           <img src={arrowRight} alt="Arrow point right" />
         </Link>
       </section>

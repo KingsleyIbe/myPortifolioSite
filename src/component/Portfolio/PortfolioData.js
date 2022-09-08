@@ -1,9 +1,9 @@
 import gitFinder from '../../assets/images/GithubFinder.jpeg';
-import leadsTracker from '../../assets/images/LeadsTracker.png';
+// import leadsTracker from '../../assets/images/LeadsTracker.png';
 import conferenceApp from '../../assets/images/conferenceBookingApp.jpeg';
 import nasaMediaLibrary from '../../assets/images/nasaMediaLibrary.jpeg';
-import languageTranslator from '../../assets/images/languageTranslator.jpeg';
-import budgetApp from '../../assets/images/budgetingApp.PNG';
+// import languageTranslator from '../../assets/images/languageTranslator.jpeg';
+// import budgetApp from '../../assets/images/budgetingApp.PNG';
 
 const Data = [
   {
@@ -19,21 +19,23 @@ const Data = [
     liveDemo: 'https://githubfinder83948989.netlify.app/',
     sourceCode: 'https://github.com/KingsleyIbe/Github-Finder',
   },
-  {
-    screenShot: leadsTracker,
-    title: 'Leads Tracker Chrome Extension',
-    description: `${'Leads Tracker can be used to save URL from any website. '
-    + 'Build a list of targeted leads to grow your business from any website. '
-    + 'For sites with great leads potential as LinkedIn, Leads Tracker can be a tool to save the URL for 1st, '}${
-      '2nd and 3rd level LinkedIn connections. Just visit any URL you wish to save, '
-    }click on ‘save tab’ button and the URL of your current tab is saved. `
-    + 'You can also add a description of your URL using the ‘save input’ button. '
-    + 'With Lead Tracker, you don’t have to worry about keeping track of important links anymore. ',
-    tech: ['CSS', 'JavaScript', 'HTML', 'Webpack'],
-    alt: 'Project screenshot',
-    liveDemo: 'https://chrome.google.com/webstore/detail/leads-tracker/ocokmojbnnoapdbobddbcbcbegolglfh',
-    sourceCode: 'https://github.com/KingsleyIbe/LeadsTrackerChromeExtension',
-  },
+  // {
+  //   screenShot: leadsTracker,
+  //   title: 'Leads Tracker Chrome Extension',
+  //   description: `${'Leads Tracker can be used to save URL from any website. '
+  //   + 'Build a list of targeted leads to grow your business from any website. '
+  //   + 'For sites with great leads potential as LinkedIn,
+  // Leads Tracker can be a tool to save the URL for 1st, '}${
+  //     '2nd and 3rd level LinkedIn connections. Just visit any URL you wish to save, '
+  //   }click on ‘save tab’ button and the URL of your current tab is saved. `
+  //   + 'You can also add a description of your URL using the ‘save input’ button. '
+  //   + 'With Lead Tracker, you don’t have to worry about keeping track of
+  // important links anymore. ',
+  //   tech: ['CSS', 'JavaScript', 'HTML', 'Webpack'],
+  //   alt: 'Project screenshot',
+  //   liveDemo: 'https://chrome.google.com/webstore/detail/leads-tracker/ocokmojbnnoapdbobddbcbcbegolglfh',
+  //   sourceCode: 'https://github.com/KingsleyIbe/LeadsTrackerChromeExtension',
+  // },
   {
     screenShot: conferenceApp,
     title: 'Online Conference Page',
@@ -54,28 +56,32 @@ const Data = [
     liveDemo: 'https://nasa-media-library.herokuapp.com/',
     sourceCode: 'https://github.com/KingsleyIbe/NAZA-media-library',
   },
-  {
-    screenShot: languageTranslator,
-    title: 'Language Translator',
-    description: 'The Language Translator App is a rails application that allows users to translate any language into other languages of their choice. The application provides the user with over one hundred languages and utilizes various endpoints.',
-    tech: ['Ruby', 'Rails', 'REST-API', 'Tailwind'],
-    alt: 'Project screenshot',
-    liveDemo: 'https://language-tanslator.herokuapp.com/translations/translate',
-    sourceCode: 'https://github.com/KingsleyIbe/language-translator',
-  },
-  {
-    screenShot: budgetApp,
-    title: 'Budget App',
-    description: 'The Ruby on Rails project is a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what. '
-      + 'The application allows the user to: '
-      + 'Register and log in, so that the data is private to them. '
-      + 'Introduce new transactions associated with a category. '
-      + 'See the money spent on each category. ',
-    tech: ['Ruby', 'Rails', 'LESS', 'Javascript'],
-    alt: 'Project screenshot',
-    liveDemo: 'https://budget-m-app.herokuapp.com/',
-    sourceCode: 'https://github.com/KingsleyIbe/budget-app',
-  },
+  // {
+  //   screenShot: languageTranslator,
+  //   title: 'Language Translator',
+  //   description: 'The Language Translator App is a rails application that allows users to
+  // translate any language into other languages of their choice. The application provides the
+  // user with over one hundred languages and utilizes various endpoints.',
+  //   tech: ['Ruby', 'Rails', 'REST-API', 'Tailwind'],
+  //   alt: 'Project screenshot',
+  //   liveDemo: 'https://language-tanslator.herokuapp.com/translations/translate',
+  //   sourceCode: 'https://github.com/KingsleyIbe/language-translator',
+  // },
+  // {
+  //   screenShot: budgetApp,
+  //   title: 'Budget App',
+  //   description: 'The Ruby on Rails project is a mobile web application
+  // where you can manage your budget: you have a list of transactions associated with a
+  // category, so that you can see how much money you spent and on what. '
+  //     + 'The application allows the user to: '
+  //     + 'Register and log in, so that the data is private to them. '
+  //     + 'Introduce new transactions associated with a category. '
+  //     + 'See the money spent on each category. ',
+  //   tech: ['Ruby', 'Rails', 'LESS', 'Javascript'],
+  //   alt: 'Project screenshot',
+  //   liveDemo: 'https://budget-m-app.herokuapp.com/',
+  //   sourceCode: 'https://github.com/KingsleyIbe/budget-app',
+  // },
 ];
 
 export default Data;

@@ -27,8 +27,8 @@ const AboutMe = () => (
       </div>
       <div>
         <h3 className="text-[#ff6b00] mt-10">Below are my tech stacks:</h3>
-        <div className="lg:flex lg:gap-x-[50px] tools-techs items-center text-[#fff] my-10">
-          <div className="md:my-5 sm:my-5">
+        <div className="lg:flex lg:gap-x-[50px] tools-techs text-[#fff] my-10">
+          <div className="md:my-5 sm:my-5 max-h-[100%]">
             <div className="flex gap-x-2 items-center">
               <img src={rectangle55} alt="Rectangle design" />
               <h3 className="">Front-End Development</h3>
@@ -48,7 +48,8 @@ const AboutMe = () => (
             </div>
             <ul className="ml-[30px]">
               <li className="my-1">Ruby on rails</li>
-              <li className="my-1">Postgres</li>
+              <li className="my-1">MongoDb</li>
+              <li className="my-1">Express</li>
               <li className="my-1">NodeJs</li>
               <li className="my-1">MySQL</li>
               <li className="my-1">Ruby</li>
@@ -73,11 +74,12 @@ const AboutMe = () => (
               <h3 className="text-[25px]">Professional Skills</h3>
             </div>
             <ul className="ml-[30px]">
+              <li className="my-1">Advanced Technical Writing</li>
               <li className="my-1">Remote pair-programming</li>
               <li className="my-1">Project management</li>
-              <li className="my-1">Communication</li>
+              <li className="my-1">Documentation</li>
               <li className="my-1">Mentorship</li>
-              <li className="my-1">Teamwork</li>
+              <li className="my-1">Leadership</li>
             </ul>
           </div>
         </div>
