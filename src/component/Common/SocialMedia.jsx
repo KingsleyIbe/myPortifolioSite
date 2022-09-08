@@ -2,7 +2,7 @@ import React from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
-  faGithub, faLinkedin, faYoutube, faTwitter, faInstagram, faStackOverflow,
+  faGithub, faLinkedin, faTwitter, faInstagram, faMedium,
 } from '@fortawesome/free-brands-svg-icons';
 
 const SocialMedia = () => {
@@ -20,9 +20,9 @@ const SocialMedia = () => {
       target: '_blank',
     },
     {
-      icon: faYoutube,
-      href: 'https://www.youtube.com/channel/UCZubtD9cLa__V8OVE3VC8sg',
-      alt: 'Youtube Icon',
+      icon: faMedium,
+      href: 'https://medium.com/@ibekingsley',
+      alt: 'Medium Icon',
       target: '_blank',
     },
     {
@@ -35,12 +35,6 @@ const SocialMedia = () => {
       icon: faInstagram,
       href: 'https://instagram.com/ibekingsleychibueze',
       alt: 'Instagram Icon',
-      target: '_blank',
-    },
-    {
-      icon: faStackOverflow,
-      href: 'https://stackoverflow.com/users/10140880/ibe-kingsley-chibueze',
-      alt: 'Stackoverflow Icon',
       target: '_blank',
     },
   ];

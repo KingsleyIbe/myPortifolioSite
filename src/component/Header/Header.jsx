@@ -24,7 +24,7 @@ const Header = () => {
       <header className="">
         <nav className="flex gap-x-10 items-center font-bold text-[#fff] nav-elems">
           <span className="fa-envelope">
-            <NavLink to="/contact" className="logo" onClick={mobileMenu}>Let&#39;s connect</NavLink>
+            <NavLink to="/contact" className="logo" onClick={mobileMenu}>Kingsley Ibe</NavLink>
           </span>
           <ul className="flex lg:gap-x-10 items-center lg:absolute right-0 mr-10 ul-elems">
             <li><NavLink to="/" className="hover:opacity-[0.5]" style={navLinksStyles}>Home</NavLink></li>
