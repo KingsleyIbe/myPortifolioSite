@@ -18,32 +18,68 @@ const Portfolio = () => {
         </div>
         <AnimationOnScroll animateIn="slideInLeft">
           <div className="items-center text-[#fff] project-container my-10 lg:w-[100%] transition-cont">
-            {data.map((item) => (
-              <ul key={uuidv4()} className="my-10 cards lg:flex gap-x-5 project-border p-5 bg-[#1c1a19]">
-                <li className="">
-                  <img src={item.screenShot} alt={item.alt} className="lg:min-w-[400px] lg:min-h-[80%] mt-5 img-port" />
-                </li>
-                <li>
-                  <li><h3 className="py-5 text-[#ff6b00] font-bold">{item.title}</h3></li>
-                  <li><p className="max-w-[100%] my-5 project-border-1 p-5">{item.description}</p></li>
-                  <li className="lg:flex gap-x-5 items-center tech">
-                    <p className="project-border-1 p-2 myy">{item.tech[0]}</p>
-                    <p className="project-border-1 p-2 myy">{item.tech[1]}</p>
-                    <p className="project-border-1 p-2 myy">{item.tech[2]}</p>
-                    <p className="project-border-1 p-2 myy">{item.tech[3]}</p>
-                  </li>
-                  <li className="lg:flex gap-x-10 items-center mt-10 btn-links">
-                    <div className="flex gap-x-2 items-center bg-[#ff6b00] myp p-2 text-[#fff] btn-hover b-radius">
-                      <FontAwesomeIcon icon={faGlobe} alt="Live link logo" />
-                      <a href={item.liveDemo} target="_blank" rel="noreferrer">Live Demo</a>
-                    </div>
+            {data && data.map((item) => (
+              item.id % 2 !== 0
+                ? (
+                  <ul key={uuidv4()} className="my-10 cards lg:flex gap-x-5 project-border p-5 bg-[#1c1a19]">
+                    <li className="">
+                      <img src={item.screenShot} alt={item.alt} className="lg:min-w-[400px] lg:min-h-[80%] mt-5 img-port" />
+                    </li>
+                    <li>
+                      <li><h3 className="py-5 text-[#ff6b00] font-bold">{item.title}</h3></li>
+                      <li><p className="max-w-[100%] my-5 project-border-1 p-5">{item.description}</p></li>
+                      <li className="lg:flex gap-x-5 items-center tech">
+                        <p className="project-border-1 p-2 myy">{item.tech[0] && item.tech[0]}</p>
+                        <p className="project-border-1 p-2 myy">{item.tech[1] && item.tech[1]}</p>
+                        <p className="project-border-1 p-2 myy">{item.tech[2] && item.tech[2]}</p>
+                        <p className="project-border-1 p-2 myy">{item.tech[3] && item.tech[3]}</p>
+                      </li>
+                      <li className="lg:flex gap-x-10 items-center mt-10 btn-links">
+                        <div className="flex gap-x-2 items-center bg-[#ff6b00] myp p-2 text-[#fff] btn-hover b-radius">
+                          <FontAwesomeIcon icon={faGlobe} alt="Live link logo" />
+                          <a href={item.liveDemo} target="_blank" rel="noreferrer">Live Demo</a>
+                        </div>
+                        {item.sourceCode
+                    && (
                     <div className="flex gap-x-2 items-center bg-[#ff6b00] myp p-2 text-[#fff] btn-hover b-radius">
                       <FontAwesomeIcon icon={faGithub} alt="Github logo" />
                       <a href={item.sourceCode} target="_blank" rel="noreferrer">Source Code</a>
                     </div>
-                  </li>
-                </li>
-              </ul>
+                    )}
+                      </li>
+                    </li>
+                  </ul>
+                )
+                : (
+                  <ul key={uuidv4()} className="my-10 cards lg:flex gap-x-5 project-border p-5 bg-[#1c1a19]">
+                    <li>
+                      <li><h3 className="py-5 text-[#ff6b00] font-bold">{item.title}</h3></li>
+                      <li><p className="max-w-[100%] my-5 project-border-1 p-5">{item.description}</p></li>
+                      <li className="lg:flex gap-x-5 items-center tech">
+                        <p className="project-border-1 p-2 myy">{item.tech[0] && item.tech[0]}</p>
+                        <p className="project-border-1 p-2 myy">{item.tech[1] && item.tech[1]}</p>
+                        <p className="project-border-1 p-2 myy">{item.tech[2] && item.tech[2]}</p>
+                        <p className="project-border-1 p-2 myy">{item.tech[3] && item.tech[3]}</p>
+                      </li>
+                      <li className="lg:flex gap-x-10 items-center mt-10 btn-links">
+                        <div className="flex gap-x-2 items-center bg-[#ff6b00] myp p-2 text-[#fff] btn-hover b-radius">
+                          <FontAwesomeIcon icon={faGlobe} alt="Live link logo" />
+                          <a href={item.liveDemo} target="_blank" rel="noreferrer">Live Demo</a>
+                        </div>
+                        {item.sourceCode
+                    && (
+                    <div className="flex gap-x-2 items-center bg-[#ff6b00] myp p-2 text-[#fff] btn-hover b-radius">
+                      <FontAwesomeIcon icon={faGithub} alt="Github logo" />
+                      <a href={item.sourceCode} target="_blank" rel="noreferrer">Source Code</a>
+                    </div>
+                    )}
+                      </li>
+                    </li>
+                    <li className="">
+                      <img src={item.screenShot} alt={item.alt} className="lg:min-w-[400px] lg:min-h-[80%] mt-5 img-port" />
+                    </li>
+                  </ul>
+                )
             ))}
           </div>
         </AnimationOnScroll>

@@ -1,12 +1,15 @@
 import React from 'react';
-// import Header from '../component/Header/Header';
+import { motion } from 'framer-motion';
 import Home from '../component/Home/Home';
 
 const HomePage = () => (
-  <div>
-    {/* <Header /> */}
+  <motion.div
+    initial={{ opacity: 0 }}
+    animate={{ opacity: 1, transition: { duration: 0.9 } }}
+    exit={{ opacity: 1, transition: { duration: 0.1 } }}
+  >
     <Home />
-  </div>
+  </motion.div>
 );
 
 export default HomePage;
