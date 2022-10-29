@@ -33,11 +33,11 @@ const Portfolio = () => {
                   <p className="project-border-1 p-2 myy">{item.tech[3]}</p>
                 </li>
                 <li className="lg:flex gap-x-10 items-center mt-10 btn-links">
-                  <div className="flex gap-x-2 items-center bg-[#ff6b00] p-2 text-[#fff] btn-hover b-radius">
+                  <div className="flex flex-row gap-x-2 items-center bg-[#ff6b00] lg:w-[20%] w-[50%] justify-center p-2 text-[#fff] btn-hover b-radius">
                     <FontAwesomeIcon icon={faGlobe} alt="Live link logo" />
                     <a href={item.liveDemo} target="_blank" rel="noreferrer">Live Demo</a>
                   </div>
-                  <div className="flex gap-x-2 items-center bg-[#ff6b00] myy p-2 text-[#fff] btn-hover b-radius">
+                  <div className="flex flex-row justify-center gap-x-2 lg:w-[20%] items-center bg-[#ff6b00] w-[50%] myy p-2 text-[#fff] btn-hover b-radius">
                     <FontAwesomeIcon icon={faGithub} alt="Github logo" />
                     <a href={item.sourceCode} target="_blank" rel="noreferrer">Source Code</a>
                   </div>
@@ -57,11 +57,11 @@ const Portfolio = () => {
                     <p className="project-border-1 p-2 myy">{item.tech[3]}</p>
                   </li>
                   <li className="lg:flex gap-x-10 items-center mt-10 btn-links">
-                    <div className="flex gap-x-2 items-center bg-[#ff6b00] p-2 text-[#fff] btn-hover b-radius">
+                    <div className="flex flex-row justify-center gap-x-2 lg:w-[20%] w-[50%] gap-x-2 items-center bg-[#ff6b00] p-2 text-[#fff] btn-hover b-radius">
                       <FontAwesomeIcon icon={faGlobe} alt="Live link logo" />
                       <a href={item.liveDemo} target="_blank" rel="noreferrer">Live Demo</a>
                     </div>
-                    <div className="flex gap-x-2 items-center bg-[#ff6b00] myy p-2 text-[#fff] btn-hover b-radius">
+                    <div className="flex flex-row justify-center gap-x-2 lg:w-[20%] w-[50%] gap-x-2 items-center bg-[#ff6b00] myy p-2 text-[#fff] btn-hover b-radius">
                       <FontAwesomeIcon icon={faGithub} alt="Github logo" />
                       <a href={item.sourceCode} target="_blank" rel="noreferrer">Source Code</a>
                     </div>

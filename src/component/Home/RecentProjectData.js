@@ -22,7 +22,7 @@ const Data = [
     description: 'I developed the web page for the Afrikbrand - the number one digital marketing consultant in Nigeria '
     + 'The Afrikbrand is a one-stop-shop for all Marketing Agency needs. '
     + 'The website is highly optimized for SEO and loads very fast ',
-    tech: ['CSS', 'WordPress', 'CMS'],
+    tech: ['CSS', 'WordPress', 'CMS', 'SEO'],
     alt: 'Project screenshot',
     liveDemo: 'https://afrikbrand.tech/',
   },
