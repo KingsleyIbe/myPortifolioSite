@@ -1,22 +1,33 @@
-import gitFinder from '../../assets/images/GithubFinder.jpeg';
+import prudenceconcept from '../../assets/images/prudenceconcept.png';
+import afrikbrand from '../../assets/images/afrikbrand.png';
 import leadsTracker from '../../assets/images/LeadsTracker.png';
 import conferenceApp from '../../assets/images/conferenceBookingApp.jpeg';
 
 const Data = [
   {
-    screenShot: gitFinder,
-    title: 'GitHub Finder',
-    description: 'Github finder react application makes a call to Github API. '
-    + 'For each call, it fetches information about github users and returns the result. '
-    + 'The application gets the following information from the API: Username, User unique ID, '
-    + 'public repositories, likes, followers, following, profile info, location, social media links, '
-    + 'and others.',
-    tech: ['CSS', 'JavaScript', 'React', 'REST API'],
+    id: 1,
+    screenShot: prudenceconcept,
+    title: 'Prudence Concept',
+    description: 'Prudence Concept was founded with a mission: to exceed clients '
+    + 'expectations by going above and beyond software to provide best-in-class'
+    + 'web solutions that transform data into knowledge, allowing them to solve their problems. ',
+    tech: ['Tailwind CSS', 'JavaScript', 'React', 'REST API'],
     alt: 'Project screenshot',
-    liveDemo: 'https://githubfinder83948989.netlify.app/',
-    sourceCode: 'https://github.com/KingsleyIbe/Github-Finder',
+    liveDemo: 'https://prudenceconcept.com/',
   },
   {
+    id: 2,
+    screenShot: afrikbrand,
+    title: 'Afrikbrand Limited',
+    description: 'I developed the web page for the Afrikbrand - the number one digital marketing consultant in Nigeria '
+    + 'The Afrikbrand is a one-stop-shop for all Marketing Agency needs'
+    + 'The website is highly optimized for SEO and loads very fast ',
+    tech: ['CSS', 'WordPress', 'CMS'],
+    alt: 'Project screenshot',
+    liveDemo: 'https://afrikbrand.tech/',
+  },
+  {
+    id: 3,
     screenShot: leadsTracker,
     title: 'Leads Tracker Chrome Extension',
     description: `${'Leads Tracker can be used to save URL from any website. '
@@ -32,6 +43,7 @@ const Data = [
     sourceCode: 'https://github.com/KingsleyIbe/LeadsTrackerChromeExtension',
   },
   {
+    id: 4,
     screenShot: conferenceApp,
     title: 'Online Conference Page',
     description: `${'Online conference application is a website that hosts conferences and other events. '
