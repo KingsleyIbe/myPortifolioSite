@@ -4,6 +4,7 @@ import nasaMediaLibrary from '../../assets/images/nasaMediaLibrary.jpeg';
 
 const Data = [
   {
+    id: 1,
     screenShot: gitFinder,
     title: 'GitHub Finder',
     description: 'Github finder react application makes a call to Github API. '
@@ -17,6 +18,7 @@ const Data = [
     sourceCode: 'https://github.com/KingsleyIbe/Github-Finder',
   },
   {
+    id: 2,
     screenShot: conferenceApp,
     title: 'Online Conference Page',
     description: `${'Online conference application is a website that hosts conferences and other events. '
@@ -28,6 +30,7 @@ const Data = [
     sourceCode: 'https://github.com/KingsleyIbe/microverse-capstone-1',
   },
   {
+    id: 3,
     screenShot: nasaMediaLibrary,
     title: 'Nasa Media Library',
     description: 'This web application gets NASA media library data of different centers. User can filter search by some parameters such as start and end date and will be able to search individual media items using item properties such as title, photographer, center etc.',
