@@ -20,7 +20,7 @@
 
 @media screen and (max-width: 768px) {
   .mobile-header {
-    width: 100%;
+    max-width: 30%;
   }
 
   .ul-container {
