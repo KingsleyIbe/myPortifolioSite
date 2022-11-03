@@ -16,6 +16,7 @@ I would love to socialize with you also, so I have included my most social media
 - CSS
 - Javascript
 - Git and GitHub
+- React
 
 ## Live Demo
 

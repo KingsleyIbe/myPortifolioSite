@@ -6,7 +6,7 @@ import Intro from './Intro';
 import Portfolio from './Portfolio';
 
 const Home = () => (
-  <main>
+  <main className="min-w-[100%]">
     <Intro />
     <div className="mt-[100px] mb-[300px]">
       <Portfolio />
