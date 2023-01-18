@@ -7,7 +7,7 @@ import rectangle57 from '../../assets/images/Rectangle-57.png';
 import gif from '../../assets/images/person-juggling-joypixel.gif';
 
 const AboutMe = () => (
-  <div className="about-me-home p-10 bg-[#1c1a19] lg:ml-[100px]">
+  <div className="about-me-home p-10 bg-[#1c1a19]">
     <section className="relative">
       <div className="">
         <h1 className="mb-10 text-[#ff6b00]">About Me</h1>
