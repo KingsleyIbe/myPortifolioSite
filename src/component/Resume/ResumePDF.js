@@ -1,4 +1,4 @@
-import kingsleyPDF from '../../assets/images/SOFTWARE-ENGINEER-KINGSLEY-IBE.pdf';
+import kingsleyPDF from '../../assets/images/SOFTWARE-DEVELOPER-KINGSLEY-IBE.pdf';
 
 const ResumePDF = () => (
   <div className="relative top-[100px]">

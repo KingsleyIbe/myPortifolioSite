@@ -7,7 +7,7 @@ import rectangle57 from '../../assets/images/Rectangle-57.png';
 import gif from '../../assets/images/person-juggling-joypixel.gif';
 
 const About = () => (
-  <div className="p-10 bg-[#1c1a19] relative top-[100px] left-[50px] about">
+  <div className="p-10 bg-[#1c1a19] relative top-[100px] about">
     <section className="">
       <div className="">
         <h1 className="text-[51px] mb-10 text-[#ff6b00]">About Me</h1>
@@ -20,7 +20,7 @@ const About = () => (
           don’t hesitate to contact me.
 
         </p>
-        <ul className="list-disc">
+        <ul className="list-disc px-10">
           <li> I’m interested in developing software applications to solve real-world problems.</li>
           <li> I’m constantly learning and improving on new software tools &amp; technologies.</li>
           <li> Currently open to a Software Engineer role.</li>

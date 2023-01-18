@@ -11,7 +11,7 @@ import Data from './RecentProjectData';
 const Portfolio = () => {
   const data = Data;
   return (
-    <div className="px-5 portfolio relative top-[100px]">
+    <div className="px-10 portfolio relative top-[100px]">
       <section>
         <div className="items-center w-[100%] m-auto">
           <h1 className="mb-10 text-[#ff6b00]">My Recent Projects</h1>
