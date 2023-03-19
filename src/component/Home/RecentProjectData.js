@@ -13,7 +13,7 @@ const Data = [
     + 'web solutions that transform data into knowledge, allowing them to solve their problems. ',
     tech: ['Tailwind CSS', 'JavaScript', 'React', 'REST API'],
     alt: 'Project screenshot',
-    liveDemo: 'https://prudenceconcept.com/',
+    liveDemo: 'https://ultainfinitywealthlaunchpad.com/',
   },
   {
     id: 2,
