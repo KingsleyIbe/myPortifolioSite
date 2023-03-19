@@ -8,9 +8,9 @@ const Data = [
     id: 1,
     screenShot: ultainfinityWealthLaunchpad,
     title: 'Ultainfinity Wealth Launchpad',
-    description: 'Prudence Concept was founded with a mission: to exceed clients '
-    + 'expectations by going above and beyond software to provide best-in-class'
-    + 'web solutions that transform data into knowledge, allowing them to solve their problems. ',
+    description: 'I developed the Ultainfinity-Wealth-Launchpad user dashboard along side other developers. '
+    + 'I extensively worked on the Frontend aspect of the project development '
+    + 'The platform currently has over 1,000 users. ',
     tech: ['Tailwind CSS', 'JavaScript', 'React', 'REST API'],
     alt: 'Project screenshot',
     liveDemo: 'https://ultainfinitywealthlaunchpad.com/',
