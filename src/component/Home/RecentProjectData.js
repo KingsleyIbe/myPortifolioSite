@@ -1,4 +1,4 @@
-import prudenceconcept from '../../assets/images/prudenceconcept.png';
+import ultainfinityWealthLaunchpad from '../../assets/images/Ultainfinity-Wealth-Launchpad.png';
 import afrikbrand from '../../assets/images/afrikbrand.png';
 import leadsTracker from '../../assets/images/LeadsTracker.png';
 import conferenceApp from '../../assets/images/conferenceBookingApp.jpeg';
@@ -6,14 +6,14 @@ import conferenceApp from '../../assets/images/conferenceBookingApp.jpeg';
 const Data = [
   {
     id: 1,
-    screenShot: prudenceconcept,
-    title: 'Prudence Concept',
-    description: 'Prudence Concept was founded with a mission: to exceed clients '
-    + 'expectations by going above and beyond software to provide best-in-class'
-    + 'web solutions that transform data into knowledge, allowing them to solve their problems. ',
+    screenShot: ultainfinityWealthLaunchpad,
+    title: 'Ultainfinity Wealth Launchpad',
+    description: 'I developed the Ultainfinity-Wealth-Launchpad user dashboard along side other developers. '
+    + 'I extensively worked on the Frontend aspect of the project development '
+    + 'The platform currently has over 1,000 users. ',
     tech: ['Tailwind CSS', 'JavaScript', 'React', 'REST API'],
     alt: 'Project screenshot',
-    liveDemo: 'https://prudenceconcept.com/',
+    liveDemo: 'https://ultainfinitywealthlaunchpad.com/',
   },
   {
     id: 2,
