@@ -1,5 +1,4 @@
 import React from 'react';
-// import Footer from '../Common/Footer';
 
 const Contact = () => (
   <div className="relative lg:top-[200px] left-[150px] p-10 contact z-0">
