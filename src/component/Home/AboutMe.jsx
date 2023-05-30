@@ -1,10 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import decorator from '../../assets/images/illustration-about-me.png';
-import rectangle55 from '../../assets/images/Rectangle-55.png';
-import rectangle56 from '../../assets/images/Rectangle-56.png';
-import rectangle57 from '../../assets/images/Rectangle-57.png';
 import gif from '../../assets/images/person-juggling-joypixel.gif';
+import data from './Skills';
 
 const AboutMe = () => (
   <div className="about-me-home p-10 bg-[#1c1a19]">
@@ -28,60 +26,22 @@ const AboutMe = () => (
       <div>
         <h3 className="text-[#ff6b00] mt-10">Below are my tech stacks:</h3>
         <div className="lg:flex lg:gap-x-[50px] tools-techs text-[#fff] my-10">
-          <div className="md:my-5 sm:my-5 max-h-[100%]">
-            <div className="flex gap-x-2 items-center">
-              <img src={rectangle55} alt="Rectangle design" />
-              <h3 className="">Front-End Development</h3>
+          {data && data?.map((item) => (
+            <div key={item?.id} className="md:my-5 sm:my-5 max-h-[100%]">
+              <div className="flex gap-x-2 items-center">
+                <img src={item?.src} alt={item?.alt} />
+                <h3 className="">{item?.title}</h3>
+              </div>
+              <ul className="ml-[30px]">
+                <li className="my-1">{item?.skills[0]}</li>
+                <li className="my-1">{item?.skills[1]}</li>
+                <li className="my-1">{item?.skills[2]}</li>
+                <li className="my-1">{item?.skills[3]}</li>
+                <li className="my-1">{item?.skills[4]}</li>
+                <li className="my-1">{item?.skills[5]}</li>
+              </ul>
             </div>
-            <ul className="ml-[30px]">
-              <li className="my-1">HTML, CSS &amp; SASS</li>
-              <li className="my-1">JavaScript</li>
-              <li className="my-1">TypeScript</li>
-              <li className="my-1">Tailwind</li>
-              <li className="my-1">ReactJs</li>
-            </ul>
-          </div>
-          <div className="md:my-5 sm:my-5">
-            <div className="flex gap-x-2 items-center">
-              <img src={rectangle56} alt="Rectangle design" />
-              <h3 className="">Back-End Development</h3>
-            </div>
-            <ul className="ml-[30px]">
-              <li className="my-1">Ruby on rails</li>
-              <li className="my-1">MongoDb</li>
-              <li className="my-1">Express</li>
-              <li className="my-1">NodeJs</li>
-              <li className="my-1">MySQL</li>
-              <li className="my-1">Ruby</li>
-            </ul>
-          </div>
-          <div className="md:my-5 sm:my-5">
-            <div className="flex gap-x-2 items-center">
-              <img src={rectangle57} alt="Rectangle design" />
-              <h3 className="text-[25px]">Tools</h3>
-            </div>
-            <ul className="ml-[30px]">
-              <li className="my-1">Responsive Web Design</li>
-              <li className="my-1">Git &amp; GitHub</li>
-              <li className="my-1">Webpack</li>
-              <li className="my-1">SEO</li>
-              <li className="my-1">TDD</li>
-            </ul>
-          </div>
-          <div className="md:my-5 sm:my-5">
-            <div className="flex gap-x-2 items-center">
-              <img src={rectangle55} alt="Rectangle design" />
-              <h3 className="text-[25px]">Professional Skills</h3>
-            </div>
-            <ul className="ml-[30px]">
-              <li className="my-1">Advanced Technical Writing</li>
-              <li className="my-1">Remote pair-programming</li>
-              <li className="my-1">Project management</li>
-              <li className="my-1">Documentation</li>
-              <li className="my-1">Mentorship</li>
-              <li className="my-1">Leadership</li>
-            </ul>
-          </div>
+          ))}
         </div>
       </div>
       <div className="flex gap-x-10 items-center action-btn text-[#fff] my-5">
