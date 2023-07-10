@@ -1,6 +1,6 @@
 import gitFinder from '../../assets/images/GithubFinder.jpeg';
 import conferenceApp from '../../assets/images/conferenceBookingApp.jpeg';
-import nasaMediaLibrary from '../../assets/images/nasaMediaLibrary.jpeg';
+import prudenceconcept from '../../assets/images/prudenceconcept.png';
 
 const Data = [
   {
@@ -31,13 +31,15 @@ const Data = [
   },
   {
     id: 3,
-    screenShot: nasaMediaLibrary,
-    title: 'Nasa Media Library',
-    description: 'This web application gets NASA media library data of different centers. User can filter search by some parameters such as start and end date and will be able to search individual media items using item properties such as title, photographer, center etc.',
+    screenShot: prudenceconcept,
+    title: 'Prudence Concept',
+    description: 'This project is a landing page for Prudence Concept business. '
+    + 'In this project you will find links that would help you learn more about Prudence Concept and its business operations. Also, you will discover the technologies '
+    + 'Prudence Concept uses in delivering high performing web application and the contact section for a DM.',
     tech: ['React', 'JavaScript', 'REST-API', 'Tailwind'],
     alt: 'Project screenshot',
-    liveDemo: 'https://nasa-media-library.herokuapp.com/',
-    sourceCode: 'https://github.com/KingsleyIbe/NAZA-media-library',
+    liveDemo: 'https://prudenceconcept.vercel.app/',
+    sourceCode: 'https://github.com/Prudence-Concept/prudenceconcept',
   },
 ];
 
