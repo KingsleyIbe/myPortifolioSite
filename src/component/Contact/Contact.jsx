@@ -5,8 +5,10 @@ const Contact = () => (
     <div className="lg:flex gap-x-10">
       <div>
         <h3 className="lg:w-[300px] my-10 contact-text">
+
           I&#39;m always interested in hearing about new projects,
           so if you&#39;d like to chat, please get in touch.
+
         </h3>
       </div>
       <form action="https://formspree.io/f/mzbyqobv" method="POST" className="grid mb-[200px]">
